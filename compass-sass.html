@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Using Sass, Compass and Plugins</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="reference, notes for compass and css">
+    <meta name="author" content="rballen">
+</head>
+<body>    
+<!-- markdown goes below -->
+<xmp theme="united" style="display:none;">
+
+#### Resources
+* http://compass-style.org/
+* http://compass-style.org/reference/compass/
+* http://sass-lang.com
+* http://sass-lang.com/tutorial.html
+* http://susy.oddbird.net/
+* http://groups.google.com/group/compass-users/
+* http://foundation.zurb.com/docs/compass.php
+
+#### Installation 
+*assumes ruby and ruby gems are already installed*
+```ruby
+sudo gem install compass     - an amazing tool
+sudo gem install susy        - responsive grid plugin for compass
+sudo gem install zurb-foundation - css framework
+gem install sassy-buttons    -  cool buttons
+add `require 'sassy-buttons'` to config.rb file
+```
+
+
+#### Project Creation and Set Up 
+
+```bash
+compass install compass (project-root if an existing project)
+compass create susy-project -r susy -u susy (../project-root if new project)
+compass create project-name -r zurb-foundation --using foundation
+compass install foundation
+```
+
+#### Build and Compile
+
+```
+compass compile [path/to/project]
+compass watch [path/to/project]
+```
+
+#### Plugins
+
+`compass frameworks` to see what's installed
+
+##### [Zurb Foundation](http://foundation.zurb.com/docs/compass.php)
+
+**templates**
+
+* http://foundation.zurb.com/templates.php
+* http://www.zurb.com/playground/off-canvas-layouts
+
+**upgrade**
+
+`gem update zurb-foundation`
+
+**beta/alpha versions**
+
+`gem install zurb-foundation --pre`
+
+
+##### Sussy
+
+__replace contents of sass/_base.scss with our html below__
+
+```bash
+@import "susy";
+@import "sassy-buttons";  // buttons plugin
+
+$total-columns: 5;  //default number of columns
+
+$column-width   : 4em;  //column width
+
+$gutter-width   : 1em;
+
+$grid-padding   : $gutter-width;  //space on the right and left of the grid
+
+//alternative layout breakpoints
+$tablet: 8;
+$computer: 55em 12;
+```
+
+Desinging for 3 layouts with Susy:
+
+1. mobile
+1. tablet
+1. computer
+
+*$total-columns* -  the default number of columns for the smallest display
+
+* You can set min and max sizes for media queires
+* The tablet breakpoint - when it has 8 columms 
+* The computer breakpoint - at least 55em wide,
+* the 12 in $computer: 55em 12; tells Susy to switch to 12 columns now
+
+open sass/screen.scss and replace it's contents with our base file 
+
+```bash
+@import "base";
+body{
+   background:#F7F3E8;
+   a{ text-decoration: none; }
+   .container{
+      @include container($total-columns, $tablet, $computer);
+```
+
+</xmp>
+
+<!-- javascript -->
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script>
+       $(document).ready(function() {
+
+      $("a").attr("target","_blank");
+      //  jQuery('a[href="http://"]').attr('target', '_blank'); 
+         
+       });  
+</script>
+
+</body>
+</html>
