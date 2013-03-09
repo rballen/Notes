@@ -1,5 +1,25 @@
 GitHub Flavored Markdown
 ================================
+```html
+Title or H1
+=============
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+
+or 
+
+Alt-H2
+------
+
+```
+
+* `*Italics*` for *Italics* 
+* `**BOLD**`  for **BOLD** 
+* Wrap in a tick (tilde) for inline `code`
+
 
 *View the [source of this content](http://github.github.com/github-flavored-markdown/sample_content.html).*
 
