@@ -44,6 +44,13 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_p
 ### Useful Packages
 __utilities:__ git,git ignore, BracketHighlighter, ColorHighlighter,  compass, docblockr,pretty json, colorpicker
 
+[markdown preview](https://github.com/revolunet/sublimetext-markdown-preview#readme) - for linux follow these instructions:
+```bash
+curl -kL http://xrl.us/pythonbrewinstall | bash
+echo '[[ -s "$HOME/.pythonbrew/etc/bashrc" ]] && source "$HOME/.pythonbrew/etc/bashrc"' >> .bashrc
+pythonbrew install --configure="--enable-unicode=ucs4 --with-zlib --with-ssl --with-threads --enable-share" 2.6
+sudo ln -s $HOME/.pythonbrew/pythons/Python-2.6/lib/python2.6 /usr/lib/sublime-text-2/lib/python2.6
+```
 [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
 
 [SublimeCodeIntel](https://github.com/Kronuz/SublimeCodeIntel) "shift+ctrl+space"  trigger autocomplete manually
