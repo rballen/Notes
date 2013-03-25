@@ -42,14 +42,16 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_p
 |ctrl+shift+c            |    colorpicker                 |
 
 ### Useful Packages
->git,git ignore, BracketHighlighter, ColorHighlighter,  
->compass, docblockr,pretty json, colorpicker
->[SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
->[SublimeCodeIntel](https://github.com/Kronuz/SublimeCodeIntel) "shift+ctrl+space"  trigger autocomplete manually
-__code and syntax:__
->dotfilesyntaxhighlighter, puppet, SublimeLinter, Sublime-HTMLPrettify, tag
-__snippets:__
->gist, casperjs, backbonejs,angularjs, angularjs attributes completion,bourbon and neat autocompletions, cdnjs, jQuery Snippets pack
+__utilities:__ git,git ignore, BracketHighlighter, ColorHighlighter,  compass, docblockr,pretty json, colorpicker
+
+[SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
+
+[SublimeCodeIntel](https://github.com/Kronuz/SublimeCodeIntel) "shift+ctrl+space"  trigger autocomplete manually
+
+__code and syntax:__ dotfilesyntaxhighlighter, puppet, SublimeLinter, Sublime-HTMLPrettify, tag
+
+__snippets:__ gist, casperjs, backbonejs,angularjs, angularjs attributes completion,bourbon and neat autocompletions, cdnjs, jQuery Snippets pack
+
 __themes:__ phoenix, soda, themr, DobDark, Helios
 ```
 [theme-phoenix](http://netatoo.github.com/phoenix-theme/) 
