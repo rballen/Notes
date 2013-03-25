@@ -39,14 +39,18 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_p
 |shift+alt+8             |   2 row layout |
 |ctrl+p                  |   #  in html file to get DOM drop down|
 | ctrl+p :LINE_NUMBER    |      goto line number|
+|ctrl+shift+c            |    colorpicker                 |
 
 ### Useful Packages
->git, gist, git ignore, BracketHighlighter, ColorHighlighter, SublimeLinter, 
->angularjs, angularjs attributes completion,puppet, SublimeLinter, 
->compass, docblockr, dotfilesyntaxhighlighter, bourbon and neat autocompletions
+>git,git ignore, BracketHighlighter, ColorHighlighter,  
+>compass, docblockr,pretty json, colorpicker
 >[SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
 >[SublimeCodeIntel](https://github.com/Kronuz/SublimeCodeIntel) "shift+ctrl+space"  trigger autocomplete manually
-__themes:__ phoenix, soda, themr, DobDark
+__code and syntax:__
+>dotfilesyntaxhighlighter, puppet, SublimeLinter, Sublime-HTMLPrettify, tag
+__snippets:__
+>gist, casperjs, backbonejs,angularjs, angularjs attributes completion,bourbon and neat autocompletions, cdnjs, jQuery Snippets pack
+__themes:__ phoenix, soda, themr, DobDark, Helios
 ```
 [theme-phoenix](http://netatoo.github.com/phoenix-theme/) 
 "phoenix_color_darkblue": true,
