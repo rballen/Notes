@@ -94,3 +94,76 @@ __themes:__ phoenix, soda, themr, DobDark
 	"translate_tabs_to_spaces": true
 }
 ```
+
+### Side Bar.sublime-menu
+```
+[
+	{"id": "side-bar-files-open-with",
+		"children":
+		[
+
+			//application 1
+			{
+				"caption": "gimp",
+				"id": "side-bar-files-open-with-gimp",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "gimp", // OSX
+									"extensions":"psd"  //any file with these extensions
+								}
+			},
+			{
+				"caption": "pinta",
+				"id": "side-bar-files-open-with-pinta",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "pinta", // OSX
+									"extensions":"jpg|png|gif"  //any file with these extensions
+								}
+			},
+			{
+				"caption": "inkscape",
+				"id": "side-bar-files-open-with-inkscape",
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "inkscape", // OSX
+									"extensions":"svg"  //any file with these extensions
+								}
+			},
+
+			//separator
+			{"caption":"-"},		
+			// browswers
+			{
+				"caption": "Chrome",
+				"id": "side-bar-files-open-with-chrome",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "google-chromee",
+									"extensions":"html|php" //any file with extension
+								}
+			},
+			{
+				"caption": "Firefox",
+				"id": "side-bar-files-open-with-firefox",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "firefox",
+									"extensions":"html|php" //any file with extension
+								}
+			}
+
+			{"caption":"-"}
+		]
+	}
+]
+```
