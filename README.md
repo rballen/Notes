@@ -10,6 +10,8 @@ reference guides, set-ups, notes ...
 
 * https://github.com/rballen/documents/blob/master/yeoman.md
 
+* https://github.com/rballen/documents/blob/master/github-markdown.md
+
 
 Markdown tools in my workflow:
  
