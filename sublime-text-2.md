@@ -54,4 +54,4 @@ my settings and setup are here: [rballen/sublime-text-2](https://github.com/rbal
 >Tomorrow Color Schemes, Perv - Color Scheme
 
 
-___be one with tool___
+___be one with your tool___
