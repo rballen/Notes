@@ -1,5 +1,6 @@
 My [Sublime Text 2](http://www.sublimetext.com/2) quick reference.
 =======================================
+settings and setup here: [rballen/sublime-text-2](https://github.com/rballen/sublime-text-2)
 
 ### snippet triggers
 
