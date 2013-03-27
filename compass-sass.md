@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Using Sass, Compass and Plugins</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="reference, notes for compass and css">
-    <meta name="author" content="rballen">
-</head>
-<body>    
-<!-- markdown goes below -->
-<xmp theme="united" style="display:none;">
 [Compass](http://compass-style.org/) and [SASS](http://sass-lang.com) 
 ========================================
 ### Installation
@@ -144,19 +132,3 @@ a{
   color: $link_color;
 }
 ```
-</xmp>
-
-<!-- javascript -->
-<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-<script>
-       $(document).ready(function() {
-
-      $("a").attr("target","_blank");
-      //  jQuery('a[href="http://"]').attr('target', '_blank'); 
-         
-       });  
-</script>
-
-</body>
-</html>

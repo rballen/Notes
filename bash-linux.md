@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>bash and linux commands</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="reference, notes on bash and linux commands">
-    <meta name="author" content="rballen">  
-    <link rel="shortcut icon" href="favicon.png"> 
-</head>
-<body>    
-<!-- markdown goes below -->
-<xmp theme="united" style="display:none;">
 
-* `#!/bin/bash`
+bash-linux reference
+====================================
+`#!/bin/bash`
 
 #### Resources
 
@@ -31,13 +20,14 @@ filelist = `ls | grep -i '.jpg'` is an error - bash will execute filelist as a c
 ```
 
 #### for loop 
-```bash
+```sh
 for f in $(ls); do
      echo "$f"
 done
+```
+or 
 
-#or 
-
+```sh
 for OUTPUT in $(Unix-Command)
 do
   command1 on $OUTPUT
@@ -72,20 +62,3 @@ if [ "${file}" == "/etc/resolv.conf" ]
 if [ -f ${f}.bak ]     # file exists
 [ -f "$f" ] && rm "$f"  # if file exits, delete it - can be written as ... if test 
 ```
-
-</xmp>
-
-<!-- javascript -->
-<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-<script>
-       $(document).ready(function() {
-
-     // $("a").attr("target","_blank");
-      //  jQuery('a[href="http://"]').attr('target', '_blank'); 
-         
-       });  
-</script>
-
-</body>
-</html>
