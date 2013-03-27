@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>yeoman</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="reference, notes on yeoman">
-    <meta name="author" content="rballen">   
-</head>
-<body>    
-<!-- markdown goes below -->
-<xmp theme="united" style="display:none;">
 #### [Yeoman - Modern workflows for modern webapps](http://yeoman.io/commandline.html  "Modern workflows for modern webapps")
 
 #### Commands & Topics
@@ -359,20 +347,3 @@ This simply means that you should uninstall backbone (the top-level package with
  [2]: https://github.com/jrburke/r.js
  [3]: http://livereload.com
  [4]: https://github.com/twitter/bower/blob/master/README.md#usage
-
-</xmp>
-
-<!-- javascript -->
-<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-<script>
-       $(document).ready(function() {
-
-     // $("a").attr("target","_blank");
-      //  jQuery('a[href="http://"]').attr('target', '_blank'); 
-         
-       });  
-</script>
-
-</body>
-</html>
