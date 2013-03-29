@@ -2,8 +2,9 @@
 ========================================
 ### Installation
 > install ruby via [rvm](https://rvm.io/rvm/install/)
-> `gem install compass`
-> `gem install sass`
+> dreamhost shared install `rvm pkg install libyaml && rvm reinstall all --force`
+> `gem install compass` 
+
 
 ### Docs
  * [sass referenece](http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html)
