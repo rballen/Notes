@@ -1,9 +1,9 @@
 [Compass](http://compass-style.org/) and [SASS](http://sass-lang.com) 
 ========================================
 ### Installation
-> install ruby via [rvm](https://rvm.io/rvm/install/)
-> dreamhost shared install `rvm pkg install libyaml && rvm reinstall all --force`
-> `gem install compass` 
+> install ruby via [rvm](https://rvm.io/rvm/install/)  
+> dreamhost shared install `rvm pkg install libyaml && rvm reinstall all --force`  
+>`gem install compass` 
 
 
 ### Docs
@@ -15,51 +15,51 @@
  * [sassmeister](http://sassmeister.com/)
 
 ### Compass
->`compass help`          show all commands
->`compass frameworks`     list frameworks
->`compass validate`      compile css and validate with W3C
->`compass compile`      compile to css
->`compass watch`      watch for changes and compile
+>`compass help`          show all commands  
+>`compass frameworks`     list frameworks   
+>`compass validate`      compile css and validate with W3C  
+>`compass compile`      compile to css  
+>`compass watch`      watch for changes and compile  
 
 ### Frameworks and Grids
 
 [bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sass) - `gem install bootstrap-sass`
-    > `compass create my_project -r bootstrap-sass --using bootstrap`
-    > add `require 'bootstrap-sass'` to config.rb
-    > existing projects use: `compass install bootstrap`
-    > add `@import "bootstrap";` to end of your scss file 
-    > in your main.sass file, make your custom changes first then import boostrap to overide 
-    > `$btnPrimaryBackground: #f00;`
-    > `@import "bootstrap";`
-    > `@import "bootstrap-responsive";`
+> `compass create my_project -r bootstrap-sass --using bootstrap`  
+> add `require 'bootstrap-sass'` to config.rb  
+> existing projects use: `compass install bootstrap`  
+> add `@import "bootstrap";` to end of your scss file   
+> in your main.sass file, make your custom changes first then import boostrap to overide   
+> `$btnPrimaryBackground: #f00;`  
+> `@import "bootstrap";`  
+> `@import "bootstrap-responsive";`    
     
 [Zurb Foundation](http://foundation.zurb.com/docs/sass.html) - `gem install zurb-foundation`
-    > `compass create my_project -r zurb-foundation --using foundation`
-    > [templates](http://foundation.zurb.com/templates.php) and [off-canvas templates](http://www.zurb.com/playground/off-canvas-layouts)
+> `compass create my_project -r zurb-foundation --using foundation`  
+> [templates](http://foundation.zurb.com/templates.php) and [off-canvas templates](http://www.zurb.com/playground/off-canvas-layouts)
 
 [Susy responsive grids](http://susy.oddbird.net/) - `gem install susy`
-    > [grid-types](http://susy.oddbird.net/demos/grid-types/)
+> [grid-types](http://susy.oddbird.net/demos/grid-types/)
 
 [RespondSASS](http://my-html-codes.com/respondsass/index.html) - `gem install respondsass`
-    > `compass create my_project -r respondsass --using respondsass`
+> `compass create my_project -r respondsass --using respondsass`
 
 [zen-grids](http://zengrids.com/) - `gem install zen-grids`
 
 
 ### [Plugins and Mixins](http://thesassway.com/projects)
 
-- [sassy buttons](http://jaredhardy.com/sassy-buttons/) -`gem install sassy-buttons` | config.rg: `require 'sassy-buttons'`
-    > `@include sassy-button(gradient-style, border-radius, font-size, first-color, second-color, text-color, text-style, auto-states)`
-    > `@include sassy-button("shiny", 15px, 26px, #ffd71a, #ffaa1a);`
+- [sassy buttons](http://jaredhardy.com/sassy-buttons/) -`gem install sassy-buttons` | config.rg: `require 'sassy-buttons'`  
+> `@include sassy-button(gradient-style, border-radius, font-size, first-color, second-color, text-color, text-style, auto-states)`  
+> `@include sassy-button("shiny", 15px, 26px, #ffd71a, #ffaa1a);`  
 
 - [fancy-buttons](xxx) - `gem install fancy-buttons`
 
 - [Zocial CSS3 Social Buttons](http://zocial.smcllns.com/sample.html) - add a class "zocial" and a class for the brand. wrap your button text in a span. 
-> acrobat,  bitcoin,  cloudapp,  dropbox,  email,  eventful, github, gmail, instapaper, itunes, ninetyninedesigns, openid, plancast, pocket, posterous, reddit, secondary, sackoverflow, viadeo, weibo, wikipedia
-    - `<button class="zocial facebook">Sign in with Facebook</button>`
-    - `<a class="zocial linkedin">Sign in with LinkedIn</a>`
-    - `<button class="zocial skype" style="font-size: 22px">Skype Me</button>`
-    - `<a class="zocial twitter icon">Follow me on Twitter</a>`
+> acrobat,  bitcoin,  cloudapp,  dropbox,  email,  eventful, github, gmail, instapaper, itunes, ninetyninedesigns, openid, plancast, pocket, posterous, reddit, secondary, sackoverflow, viadeo, weibo, wikipedia  
+>`<button class="zocial facebook">Sign in with Facebook</button>`  
+`<a class="zocial linkedin">Sign in with LinkedIn</a>`  
+`<button class="zocial skype" style="font-size: 22px">Skype Me</button>`  
+`<a class="zocial twitter icon">Follow me on Twitter</a>`  
 
 - [animate-sass](http://daneden.me/animate/) -`gem install animate-sass`  | config.rb:`require 'animate-sass'` | `@import "animate.sass"`
 
