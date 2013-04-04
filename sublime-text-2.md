@@ -34,7 +34,7 @@ my settings and setup are here: [rballen/sublime-text-2](https://github.com/rbal
 ### packages
 >Package Control, View In Browser, SideBarEnhancements, 
 
->Markdown Preview, DocBlockr
+>Markdown Preview, DocBlockr, Search Stack Overflow
 
 >Gist, Git, Gitignore
 
