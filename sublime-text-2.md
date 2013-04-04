@@ -32,23 +32,23 @@ my settings and setup are here: [rballen/sublime-text-2](https://github.com/rbal
 
 
 ### packages
->Package Control, View In Browser, SideBarEnhancements,  LESS, Compass 
+>Package Control, View In Browser, SideBarEnhancements, 
+
 >Markdown Preview, DocBlockr
 
 >Gist, Git, Gitignore
 
->SublimeCodeIntel, SublimeLinter, Tag, HTML5, 
+>SublimeCodeIntel, SublimeLinter, Web Inspector, Tag, HTML5, Puppet, Puppet Syntax Checking, Dotfiles Syntax Highlighting    
 
 >Pretty JSON, Sublime-HTMLPrettify, Placehold.it Image Tag Generator,
 >Nettuts+ Fetch, BracketHighlighter, Color Highlighter, ColorPicker,
 
->AngularJS, AngularJS Attributes Completion, 
->Backbone.js, 
->CasperJS, cdnjs,
->Bourbon & Neat Autocompletions, LESS, Syntax Highlighting for Sass, SCSS,
+>AngularJS, AngularJS Attributes Completion,    
+>Backbone.js,CasperJS, cdnjs,     
+>LESS, Compass, Syntax Highlighting for Sass, SCSS, Bourbon & Neat Autocompletions      
 >jQuery, jQuery Snippets pack,
 >Zurb Foundation Snippets, Twitter Bootstrap Snippets,
->Puppet, Dotfiles Syntax Highlighting,
+
 
 >Helios, Themr, DobDark Color Scheme, Theme - Nil, Theme - Phoenix, Theme - Soda
 >Tomorrow Color Schemes, Perv - Color Scheme
