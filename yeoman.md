@@ -32,7 +32,7 @@ grunt                          # build the application for deployment
     - --value
     - --constant
 
-__anular-ui__ and [karma tests](http://karma-runner.github.com/0.8/index.html)
+__[anular-ui](http://angular-ui.github.com/)__ and [karma tests](http://karma-runner.github.com/0.8/index.html)
 ```sh
 mkdir <appname> && cd $_
 npm install generator-angular generator-karma 
