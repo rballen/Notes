@@ -2,6 +2,10 @@
 =======================================
 my settings and setup are here: [rballen/sublime-text-2](https://github.com/rballen/sublime-text-2)
 
+__good workflows__   
+- http://www.youtube.com/watch?v=TZ-bgcJ6fQo
+
+
 ### key mappings 
 
 | keys          | desc          |  keys    |      desc|
