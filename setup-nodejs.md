@@ -5,6 +5,8 @@
 - [npm](https://npmjs.org/) - node package manager
 - [nodeup](http://nodeup.com/) - nodejs podcast
 - [nodejitsu](http://docs.nodejitsu.com/)
+	- [package.json cheatsheet](http://package.json.nodejitsu.com/)
+    - [npm cheatsheet](http://blog.nodejitsu.com/npm-cheatsheet)
 - [howtonode](http://howtonode.org)
 - [Felix nodejs guide](http://nodeguide.com/)
 - [Cloud9 and node examples](https://github.com/c9/nodemanual.org-examples)
