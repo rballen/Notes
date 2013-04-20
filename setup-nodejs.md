@@ -34,16 +34,16 @@ source ~/.bashrc
 nvm [tab][tab]
 ```
 ### [npm](https://npmjs.org/)
-npm &lt;command&gt; : install update search author docs list linkj tag uninstall update etc   
+npm <command> : install update search author docs list linkj tag uninstall update etc   
 ```sh
 npm update npm -g   
-npm install &lt;package&gt;       # local install   
-npm install -g &lt;package&gt;    # global install   
+npm install <package>       # local install   
+npm install -g <package>    # global install   
 ```
 ### Packages
 #### popular
 ```sh
-npm install -g node-dev node-inspector   
+npm install -g node-dev node-inspector nodemon
 npm install -g express coffee-script jslint less   
 npm install -g marked jsontool   
 npm install -g recess connect uglify-js jshint hogan.js
