@@ -11,13 +11,22 @@ Quick reference for things github:
 Git
 -----------
 ```sh
-mkdir repo && cd repo && git init 
-git add  file1 file
+git clone https://github.com/rballen/documents.git 
+git clone git://github.com/rballen/documents.git
+git clone git@github.com:rballen/documents.git
+
+mkdir repo && cd repo
+git init 
+git add file1 file
 git add .  
 
-git commit file1 files2...-m "message"
-git commit -a -m "message" # commit all files 
+git status
+git log
+git log -n 3  # display last 3 commits
+git log --stat  # high level overview
 
+git commit file1 files2...-m 'message'
+git commit -a -m "message" # commit all files 
 
 git checkout -b branch
 git branch -r
