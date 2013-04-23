@@ -1,18 +1,26 @@
-[NodeJS](http://nodejs.org/) notes
+[NodeJS](http://nodejs.org/) Setup & Resources 
 =================================
+Aggraging all my nodejs resources - quick setup, tutorials, cloud9 ide and useful packages
+
 ### Resources
 - [docs](http://nodejs.org/api/)
 - [npm](https://npmjs.org/) - node package manager
+- [nodetoolbox](http://nodetoolbox.com/) - listing of nodejs packages
 - [nodeup](http://nodeup.com/) - nodejs podcast
 - [nodejitsu](http://docs.nodejitsu.com/)
 	- [package.json cheatsheet](http://package.json.nodejitsu.com/)
-    - [npm cheatsheet](http://blog.nodejitsu.com/npm-cheatsheet)
+  - [npm cheatsheet](http://blog.nodejitsu.com/npm-cheatsheet)
 - [howtonode](http://howtonode.org)
 - [Felix nodejs guide](http://nodeguide.com/)
 - [Cloud9 and node examples](https://github.com/c9/nodemanual.org-examples)
 - [nodemanual](https://github.com/c9/nodemanual.org) - essential Node.js dags, API references, and developer tutorials.
 - [nodejs@stackoverflow.com](http://stackoverflow.com/questions/tagged/node.js)
 - [planet nodejs](http://planetnodejs.com/)
+- [nodejs hosting roundup](http://saewitz.com/node-dot-js-websocket-hosting-roundup/)
+- [building a server](http://weblog.bocoup.com/node-stress-test-server)
+
+
+
 
 ### debian based dependancies
 ```ag
@@ -35,7 +43,7 @@ echo '[[ -r $NVM_DIR/bash_completion ]] && . $NVM_DIR/bash_completion' >> .bashr
 source ~/.bashrc
 nvm [tab][tab]
 ```
-### [npm](https://npmjs.org/)
+### [npm](https://npmjs.org/) - Node Package Manager
 npm <command> : install update search author docs list linkj tag uninstall update etc   
 ```sh
 npm update npm -g   
@@ -43,35 +51,35 @@ npm install <package>       # local install
 npm install -g <package>    # global install   
 ```
 ### Packages
-#### popular
-```sh
-npm install -g node-dev node-inspector nodemon
-npm install -g express coffee-script jslint less   
-npm install -g marked jsontool   
-npm install -g recess connect uglify-js jshint hogan.js
-```  
-#### [angularjs](http://angularjs.org/)
+[__angularjs__](http://angularjs.org/)    
 `npm install -g angular karma`        
 
-#### [yeoman](http://yeoman.io)
+[__yeoman__](http://yeoman.io)   
 `npm install -g yo grunt-cli bower`    # yeoman,  grunt and bower     
 `npm install -g yeoman-foundation`     # scafolding for zurb foundation  
-#### [docpad](http://docpad.org/docs/plugins)
-npm install -g npm     # update npm first   
-npm install -g docpad@6.29   
+`npm install -g generator-angular`     # scafolding for angularjs 
 
-#### _more_
+[__docpad__](http://docpad.org/docs/plugins)    
+`npm install -g npm`     # update npm first   
+`npm install -g docpad@6.29`   
+
+__popular__   
 ```sh
 npm install -g enhance-css     # base64 all images in css   
 npm install -g caminte  # ORM: mongodb, mysql, sqlite, neo4j  http://www.camintejs.com/   
 npm install --save feedr   # convert all feeds to json    
+npm install -g node-dev node-inspector nodemon
+npm install -g express coffee-script jslint less   
+npm install -g marked jsontool   
+npm install -g recess connect uglify-js jshint hogan.js
 ```
-#### related
+
+### related
 - [phantomjs](http://phantomjs.org/)
 - [couchdb with nodejs](http://zoddy.github.com/cushion/)    
 
-### [cloud9 ide](https://github.com/ajaxorg/cloud9)  
-#### install 
+### [cloud9 ide](https://github.com/ajaxorg/cloud9) 
+__install__   
 ```sh
 nvm install v0.8.2   
 nvm use 0.8.2   
@@ -81,13 +89,13 @@ git clone https://github.com/ajaxorg/cloud9.git
 cd cloud9
 sm install
 ```
-#### update
+__update__   
 ```sh   
 git pull       
 sm update     
 sm install      
 ```
-#### code
+__code__   
 ```sh
 nvm use 0.8.2   
 cd ~/bin/cloud9   

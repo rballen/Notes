@@ -10,7 +10,7 @@ ___requires node.js___
 
 ### Basic webapp 
 ```sh
-yo webapp                      # scaffold out a skeleton web app project
+yo webapp my-app                    # scaffold out a skeleton web app project
 npm install && bower install   # install default dependencies
 bower install underscore       # install a dependency for your project from Bower
 grunt                          # build the application for deployment
@@ -34,9 +34,9 @@ grunt                          # build the application for deployment
 
 __[anular-ui](http://angular-ui.github.com/)__ and [karma tests](http://karma-runner.github.com/0.8/index.html)
 ```sh
-mkdir <appname> && cd $_
+mkdir my-app && cd $_
 npm install generator-angular generator-karma 
-yo angular [appname]           # scaffold AngularJS project with optional name [appname]
+yo angular [my-app]           # scaffold AngularJS project with optional name [appname]
 npm install && bower install --dev   # install default dependencies
 bower install angular-ui       # install a dependency for your project from Bower
 grunt test                     # test your app
@@ -46,10 +46,10 @@ grunt                          # build the application for deployment
 
 ### [Bower](http://twitter.github.com/bower/) - package manager from twitter
 ```sh
-bower search <dep>          # search for a dependency in  registry:  bower search jquery-bbq
-bower install <dep>..<depN> # install one or more dependencies
+bower search  {dep}         # search for a dependency in  registry:  bower search jquery-bbq
+bower install {dep}..{dep} # install one or more dependencies
 bower list                  # list out the dependencies you have installed for a project
-bower update <dep>          # update a dependency to the latest version available
+bower update {dep}          # update a dependency to the latest version available
 ```
 ####[Bower Components](http://sindresorhus.com/bower-components/)  
 `bower update`  for latest components    
