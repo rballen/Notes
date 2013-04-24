@@ -35,27 +35,34 @@ __good workflows__
 |xxxxx    | xxxxxx       |  xxxxxx |  xxxxxx |
 
 
-### packages
->Package Control, View In Browser, SideBarEnhancements, 
+#### Packages in my Workflow
 
->Markdown Preview, DocBlockr, Search Stack Overflow
+__utlities:__   
+git, gitignore, BracketHighlighter, ColorHighlighter, Nettuts+ Fetch   
+DocBlockr, ColorPicker, View In Browser   
+Markdown Preview, Search Stack Overflow
+[SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
 
->Gist, Git, Gitignore
-
->SublimeCodeIntel, SublimeLinter, Web Inspector, Tag, HTML5, Puppet, Puppet Syntax Checking, Dotfiles Syntax Highlighting    
-
->Pretty JSON, Sublime-HTMLPrettify, Placehold.it Image Tag Generator,
->Nettuts+ Fetch, BracketHighlighter, Color Highlighter, ColorPicker,
-
->AngularJS, AngularJS Attributes Completion,    
->Backbone.js,CasperJS, cdnjs,     
->LESS, Compass, Syntax Highlighting for Sass, SCSS, Bourbon & Neat Autocompletions      
->jQuery, jQuery Snippets pack,
->Zurb Foundation Snippets, Twitter Bootstrap Snippets,
+__code and syntax:__   
+[SublimeLinter](http://github.com/SublimeLinter/SublimeLinter)   
+[SublimeCodeIntel](https://github.com/Kronuz/SublimeCodeIntel) "shift+ctrl+space"  trigger autocomplete manually
+[Web Inspector](http://sokolovstas.github.com/SublimeWebInspector/) -  realtime javascript debugging with chrome.  
+Syntax Highlighting for Sass,Compass, SCSS, LESS             
+Dotfiles Syntax Highlighting, Sublime-HTMLPrettify, Pretty JSON, Tag, jQuery   
+HTML5, Puppet, Puppet Syntax Checking   
 
 
->Helios, Themr, DobDark Color Scheme, Theme - Nil, Theme - Phoenix, Theme - Soda
->Tomorrow Color Schemes, Perv - Color Scheme
+__snippets:__  
+[cdnjs](https://github.com/dafrancis/Sublime-Text--cdnjs) - add scripts from http://www.cdnjs.com/
+[Gists](http://www.youtube.com/watch?v=3cdkYdzgXLc) - sexy code management at github   
+AngularJS, AngularJS Attributes Completion   
+CasperJS, Backbone.js, jQuery Snippets pack   
+Bourbon & Neat Autocompletions, Placehold.it Image Tag Generator   
+[twitter boostrap](http://devtellect.github.com/sublime-twitter-bootstrap-snippets) and [zurb foundation](https://github.com/liamr/Zurb-Foundation-Textmate-Bundle)
+
+__themes:__   
+Helios - switch between light and dark themes , Themr - load themes   
+Phoenix, Soda, DobDark Color Scheme, Nil, Tomorrow Color Schemes   
 
 
 ___be one with your tool___
