@@ -16,7 +16,7 @@ __Bootstrap CSS__
 `<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap.no-icons.min.css" rel="stylesheet">`   
 __bootstrap themes__     
 journal theme   
-`<link href="http://netdna.bootstrapcdn.com/bootswatch/2.1.1/journal/bootstrap.min.css" rel="stylesheet">`
+`<link href="http://netdna.bootstrapcdn.com/bootswatch/2.1.1/journal/bootstrap.min.css" rel="stylesheet">`   
 united theme   
 `<link href="http://netdna.bootstrapcdn.com/bootswatch/2.1.1/united/bootstrap.min.css" rel="stylesheet">`   
 cyborg theme   
