@@ -7,8 +7,11 @@ Modern workflows for modern webapps
 ___requires node.js___   
 `npm install -g yo grunt-cli bower`   
 `npm install -g generator-angular`   
+> name : [ember, angular, bootstrap, backbone, bbb, chrome-extension, foundation, jasmine, karma, mocha, jquery, chromeapp]
 
 ### Basic webapp 
+`yo <generator> [arguments] [--help]`   
+
 ```sh
 yo webapp my-app                    # scaffold out a skeleton web app project
 npm install && bower install   # install default dependencies
