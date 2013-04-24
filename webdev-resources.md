@@ -23,7 +23,8 @@ WebDev Resources
 - http://www.scoop.it/t/nodejs-code
 
 
-#### utilities
+### Javascript libraries
+- [mathjs](http://mathjs.org/) - real and complex numbers, matrices, mathematical functions, and an expression parser.
 - [Blackbird] (http://blackbirdjs.googlecode.com) - Open Source JavaScript Logging Utility
 - [string](http://stringjs.com/) - extra string functions for web or node
 - [jquery-cookie] (https://github.com/carhartl/jquery-cookie) - manipulate cookies the easy way
