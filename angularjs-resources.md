@@ -37,6 +37,7 @@ __tools__
 - [adobe's getting started guide](http://www.adobe.com/devnet/html5/articles/getting-started-with-angularjs.html)
 - [AngularJS Fundamentals In 60-ish Minutes ](http://www.youtube.com/watch?v=i9MHigUZKEM&feature=youtu.be)
 - [Egghead.io](http://www.youtube.com/playlist?list=PLP6DbQBkn9ymGQh2qpk9ImLHdSH5T7yw7) -  Excellent AngularJS video tutorial course from Egghead.io 
+- [fun with angularjs](http://devgirl.org/2013/03/21/fun-with-angularjs/)
 - [angularjs in depth](http://misox.blog.matfyz.sk/p23222-angularjs-in-depth-part-i) - a few other angular tuts too
 - [angularjs for jquery devs](http://blog.artlogic.com/2013/03/06/angularjs-for-jquery-developers/)
 - [8 tips for beginners](http://vxtindia.com/blog/8-tips-for-angular-js-beginners/)
