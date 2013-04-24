@@ -3,9 +3,10 @@ ruby and gems
 
 ### Install with [rvm](http://rvm.io)
 ```sh
-\curl -L https://get.rvm.io | bash -s stable --ruby` 
+\curl -L https://get.rvm.io | bash -s stable --ruby
 echo 'source ~/.rvm/scripts/rvm' >> ~/.bashrc
 source ~/.bashrc
+rvm requirements 
 ```
 verify that output of:   
 `type rvm | head -n 1`
@@ -17,12 +18,12 @@ rvm info                # all the details
 ```
 
 #### userful gems for webdev
-`gem install bundler rake jekyll`   
-`gem install jsduck toolkit` https://github.com/Snugug/toolkit   
+`gem install bundler rake jekyll`          
+[toolkit](https://github.com/Snugug/toolkit) - `gem install jsduck toolkit`    
 ___color___    
-`gem install compass compass-recipes compass-colors`   
-`gem install color-schemer` https://github.com/scottkellum/color-schemer   
-___frameworks___   
+`gem install compass compass-recipes compass-colors`      
+[color-schemer](https://github.com/scottkellum/color-schemer) - `gem install color-schemer`    
+___frameworks___    
 `gem install bootstrap-sass zurb-foundation`   
 ___ui___   
 `gem install sassy-buttons`   
