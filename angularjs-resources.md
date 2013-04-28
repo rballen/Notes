@@ -18,6 +18,7 @@ __web resources__
 - [stackoverflow](http://stackoverflow.com/questions/tagged/angularjs)
 - [Projects using](https://github.com/angular/angular.js/wiki/Projects-using-AngularJS)
 - [Built with](http://builtwith.angularjs.org/)
+- [scoop.it](http://www.scoop.it/t/angularjs)
 
 __code__    
 - [plnkr](http://plnkr.co/) - online code collaboration
