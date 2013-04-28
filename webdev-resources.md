@@ -55,11 +55,11 @@ WebDev Resources
 #### metrics
 - [confess.js] (https://github.com/jamesgpearce/confess) - Uses PhantomJS to headlessly analyze web pages and generate manifests (appcache)
 
-#### design
+#### ui design tools
 - [holder] (https://github.com/imsky/holder) -  render image placeholders entirely in browser.
 - [jQuery-xcolor] (https://github.com/infusion/jQuery-xcolor) -  easy to use color manipulation plugin for jQuery
 
-#### ui
+#### code collaboration & learning
 - [jsFiddle](http://jsfiddle.net) 
 - http://dabblet.com/
 - http://jsfiddle.net/
@@ -77,3 +77,10 @@ WebDev Resources
 - [JAX-RS examples](https://developer.atlassian.com/display/REST/Overview+of+REST+Implementation+using+the+REST+Plugin+Module)
 - [aui's REST BROWSER](https://developer.atlassian.com/display/RAB/Documenting+your+APIs+with+the+Atlassian+REST+API+Browser) - use for testing as well as aide in documenting
 
+### Code Snippets & Templates
+- [gitignore templates](https://github.com/github/gitignore)
+- github gists: 
+	-[discover](https://gist.github.com/discover) or [search](https://gist.github.com/search) 
+    using [Sublime text](http://net.tutsplus.com/tutorials/tools-and-tips/sexy-code-snippet-management-with-gists/) or [intelliJ](http://www.jetbrains.com/idea/webhelp/creating-git-gists.html)
+- [jcodecollector](https://github.com/alessandrococco/jcodecollector)
+- [dotfiles](http://dotfiles.github.io/) - linux and macosx dotfiles repo
