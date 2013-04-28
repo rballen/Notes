@@ -21,7 +21,7 @@ WebDev Resources
 - http://pinboard.in/t:sass/
 - http://pinboard.in/t:generator/
 - http://www.scoop.it/t/nodejs-code
-
+- http://www.scoop.it/t/angularjs
 
 ### Javascript libraries
 - [mathjs](http://mathjs.org/) - real and complex numbers, matrices, mathematical functions, and an expression parser.
