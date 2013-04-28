@@ -10,18 +10,18 @@ __good workflows__
 
 | keys          | desc          |  keys    |      desc|
 | ------------- |:------------- | --------:| --------:|
-|ctrl+shift+p     | package install, list |ctrl+p    | '#' in html 4 DOM drop down|
-|ctrl+k, ctrl+b   | toggle_side_bar       | ctrl+p :LINE_NO     | goto line number|
-|shift+alt+1      | 1 column layout       | ctrl+shift+b	 | build|
-|shift++alt+2     | 2 column layout       |ctrl+j         | code intel auto complete|
-|shift+alt+8      | 2 row layout          |	   -      |	     -        |
-|ctrl+shift+c      | colorpicker          |ctrl+shift+c	| color picker|
-|ctrl+alt+super+up | goto left bracket   |ctrl+alt+super+down | goto right bracket|
-|ctrl+alt+super+s  | select text between bracket|	  -        |	 -            |
-|xxxxx           | xxxxxx  |  xxxxxx     |  xxxxxx |
-|xxxxx  		 | xxxxxx  |  xxxxxx     |  xxxxxx |
-|xxxxx           | xxxxxx  |  xxxxxx     |  xxxxxx |
-|xxxxx  		 | xxxxxx  |  xxxxxx     |  xxxxxx |
+|ctrl+shift+p     |package install, list |ctrl+p filename  | open filename            |
+|ctrl+k, ctrl+b   |toggle_side_bar       |ctrl+p @ text    | jump to text             |
+|shift+alt+1      |1 column layout       |ctrl+p :LINE_NO  | goto line number         |
+|shift++alt+2     |2 column layout       |ctrl+p # text    | search/goto in file      |
+|shift+alt+8      |2 row layout          |ctrl+j           | code intel auto complete |
+|ctrl+alt+super+up|goto left bracket     |ctrl+shift+c	   |color picker              |
+|ctrl+alt+super+s |select text in brackets|ctrl+alt+super+down| goto right bracket    |
+|ctrl+shift+b     | build                |  -              |         -                |
+|select text block ctrl_shift+L| multiselect  |  select word alt+f3  |  multiselect   |
+|mouse + ctrl     | multiselect  |  mouse + ctrl           |  multiselect deselect    |
+| -  | - | - |  - |
+|-   | - | - |  - |
 
 ### code snippets
 
