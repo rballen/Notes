@@ -22,6 +22,7 @@ WebDev Resources
 - http://pinboard.in/t:generator/
 - http://www.scoop.it/t/nodejs-code
 - http://www.scoop.it/t/angularjs
+- 
 
 ### Javascript libraries
 - [mathjs](http://mathjs.org/) - real and complex numbers, matrices, mathematical functions, and an expression parser.
@@ -37,9 +38,10 @@ WebDev Resources
 - [smog] (https://github.com/wearefractal/smog) - mongodb viewer for web and linux desktop
 - [sjcl.js] (http://bitwiseshiftleft.github.com/sjcl/) - Stanford Javascript Crypto Library
 - [httool] (https://github.com/kanduvisla/httool) - create .htaccess easily
+
+### NodeJS Packages
+- [cushion](https://github.com/Zoddy/cushion.git) - NodeJS CouchDB API
 - [caminte](https://github.com/biggora/caminte.git) - orm for mongoose,mongo,mysql,sqlite3,riak,couchdb,redis,neo4j
-- [cushion](https://github.com/Zoddy/cushion.git) - Node.js CouchDB API
-- [css3please](http://css3please.com/) - code directly on this webpage and it creates organized CSS for all browsers s
 
 ### fonts & icons & graphics
 - http://thenounproject.com/
@@ -50,6 +52,7 @@ WebDev Resources
 - http://darkskyapp.github.io/skycons/
 - http://adamwhitcroft.com/climacons/
 - http://philbit.com/svgpatterns/
+- http://adamwhitcroft.com/batch/
 
 
 #### metrics
