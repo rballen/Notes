@@ -1,12 +1,12 @@
-Git & Github Markdown Reference
+Markdown Reference
 =========
 
-Quick reference for things github:
-* git commands
-* markdown reference
-* todo
-    * gh_pages
-    * gists
+Quick reference for things github:   
+- git commands    
+- markdown reference    
+- todo   
+	- gh_pages   
+	- gists   
 
 Git
 -----------
