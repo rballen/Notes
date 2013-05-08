@@ -80,13 +80,12 @@ npm install -g recess connect uglify-js jshint hogan.js
 ### [cloud9 ide](https://github.com/ajaxorg/cloud9) 
 __install__   
 ```sh
-nvm install v0.8.2   
-nvm use 0.8.2   
-npm install -g sm   
+nvm install v0.8.22  
+nvm use 0.8.22   
 cd ~/bin   
 git clone https://github.com/ajaxorg/cloud9.git 
 cd cloud9
-sm install
+npm install
 ```
 __update__   
 ```sh   
@@ -95,8 +94,9 @@ sm update
 sm install      
 ```
 __code__   
+put this code in an executable shell script named c9-projectname.sh on your path to launch anywhere. 
 ```sh
-nvm use 0.8.2   
+nvm use 0.8.22  
 cd ~/bin/cloud9   
 bin/cloud9.sh -p 4000 -w ~/Projects/foundation/    
 google-chrome localhost:4000 
