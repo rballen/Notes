@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>document_title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="reference, notes on description">
+    <meta name="author" content="rballen"> 
+    <link rel="shortcut icon" href="favicon.png">
+</head>
+<body>    
+<!-- markdown goes between xmp tags -->
+<xmp theme="united" style="display:none;">
+theme: united, cerulean, cyborg, readable, journal, simplex, slate or spacelab
+
+- [title](url)
+- [title](url)
+    
+
+### Heading
+__subheading__    
+
+```sh
+
+npm install marked
+cat README.md | marked > README.html
+
+```
+__table__ 
+
+| th          | th        | th       | th           |
+| ----------- |:---------:| --------:| ------------:|
+| ---         | ---       | ---      | ---          |
+| ---         | ---       | ---      | ---          |
+
+
+
+</xmp>
+
+<!-- javascript -->
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script>
+       $(document).ready(function() {
+
+     $("a").attr("target","_blank");
+       jQuery('a[href="http://"]').attr('target', '_blank'); 
+         
+       });  
+</script>
+
+</body>
+</html>
