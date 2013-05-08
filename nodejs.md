@@ -1,6 +1,7 @@
+
 [NodeJS](http://nodejs.org/) Setup & Resources 
 =================================
-Aggraging all my nodejs resources - quick setup, tutorials, cloud9 ide and useful packages
+Aggregating my nodejs resources - quick setup, tutorials, cloud9 ide. useful packages...
 
 ### Resources
 - [docs](http://nodejs.org/api/)
@@ -8,8 +9,8 @@ Aggraging all my nodejs resources - quick setup, tutorials, cloud9 ide and usefu
 - [nodetoolbox](http://nodetoolbox.com/) - listing of nodejs packages
 - [nodeup](http://nodeup.com/) - nodejs podcast
 - [nodejitsu](http://docs.nodejitsu.com/)
-	- [package.json cheatsheet](http://package.json.nodejitsu.com/)
-  - [npm cheatsheet](http://blog.nodejitsu.com/npm-cheatsheet)
+   - [package.json cheatsheet](http://package.json.nodejitsu.com/)
+   - [npm cheatsheet](http://blog.nodejitsu.com/npm-cheatsheet)
 - [howtonode](http://howtonode.org)
 - [Felix nodejs guide](http://nodeguide.com/)
 - [Cloud9 and node examples](https://github.com/c9/nodemanual.org-examples)
@@ -17,10 +18,7 @@ Aggraging all my nodejs resources - quick setup, tutorials, cloud9 ide and usefu
 - [nodejs@stackoverflow.com](http://stackoverflow.com/questions/tagged/node.js)
 - [planet nodejs](http://planetnodejs.com/)
 - [nodejs hosting roundup](http://saewitz.com/node-dot-js-websocket-hosting-roundup/)
-- [building a server](http://weblog.bocoup.com/node-stress-test-server)
-
-
-
+- [building a server](http://weblog.bocoup.com/node-stress-test-serv)
 
 ### debian based dependancies
 ```ag
@@ -78,6 +76,7 @@ npm install -g recess connect uglify-js jshint hogan.js
 - [couchdb with nodejs](http://zoddy.github.com/cushion/)    
 
 ### [cloud9 ide](https://github.com/ajaxorg/cloud9) 
+this worked on ubuntu 13.04 and manjaro (arch) 8.5.1     
 __install__   
 ```sh
 nvm install v0.8.22  
@@ -90,8 +89,8 @@ npm install
 __update__   
 ```sh   
 git pull       
-sm update     
-sm install      
+npm update     
+npm install      
 ```
 __code__   
 put this code in an executable shell script named c9-projectname.sh on your path to launch anywhere. 
