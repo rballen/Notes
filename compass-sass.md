@@ -33,6 +33,20 @@
 > `@import "bootstrap";`  
 > `@import "bootstrap-responsive";`    
     
+__[singularity](https://github.com/Team-Sass/Singularity/wiki)__    
+[video walkthru](http://vimeo.com/63509346)   
+```sh
+gem install singularitygs
+compass create {project name} -r singularitygs --using singularitygs
+gem install singularity-extras
+```
+add require 'singularitygs' to existing proeject    
+if you want to use [grid-toggle](https://github.com/Team-Sass/Singularity/wiki/Creating-Grids#visualizing-your-grids) the grid visualizer you need [grid.js](https://github.com/Team-Sass/Singularity/blob/1.x.x/templates/project/grid.js)
+
+for ie 6 ad 7 you'll need this polyfil `compass install singularitygs/box-sizing`
+
+singularity demo can be seen with `compass create sgs-demos -r singularitygs --using singularitygs/demos`
+
 [Zurb Foundation](http://foundation.zurb.com/docs/sass.html) - `gem install zurb-foundation`
 > `compass create my_project -r zurb-foundation --using foundation`  
 > [templates](http://foundation.zurb.com/templates.php) and [off-canvas templates](http://www.zurb.com/playground/off-canvas-layouts)
