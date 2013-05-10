@@ -1,4 +1,3 @@
-
 [NodeJS](http://nodejs.org/) Setup & Resources 
 =================================
 Aggregating my nodejs resources - quick setup, tutorials, cloud9 ide. useful packages...
@@ -19,6 +18,7 @@ Aggregating my nodejs resources - quick setup, tutorials, cloud9 ide. useful pac
 - [planet nodejs](http://planetnodejs.com/)
 - [nodejs hosting roundup](http://saewitz.com/node-dot-js-websocket-hosting-roundup/)
 - [building a server](http://weblog.bocoup.com/node-stress-test-serv)
+- [debugging mem leeks](http://dtrace.org/blogs/bmc/2012/05/05/debugging-node-js-memory-leaks/)
 
 ### debian based dependancies
 ```ag
