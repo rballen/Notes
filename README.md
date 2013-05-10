@@ -7,7 +7,7 @@ reference guides, set-ups, notes, links, stuff I can't remember ...
 - [compass-sass](https://github.com/rballen/documents/blob/master/compass-sass.md)        
 - [markdown](https://github.com/rballen/documents/blob/master/md-reference.md)  
 - [strapdown](https://github.com/rballen/documents/blob/master/markdown.html)
-- [nodejs](htps://github.com/rballen/documents/blob/master/nodejs.md)  
+- [nodejs](https://github.com/rballen/documents/blob/master/nodejs.md)    
 - [ruby](https://github.com/rballen/documents/blob/master/ruby.md)    
 - [sublime-text-2](https://github.com/rballen/documents/blob/master/sublime-text-2.md)    
 - [webdev](https://github.com/rballen/documents/blob/master/webdev-resources.md) - link list :)         
