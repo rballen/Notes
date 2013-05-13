@@ -25,6 +25,8 @@ __code__
 - [JSFiddle Examples](https://github.com/angular/angular.js/wiki/JSFiddle-Examples)
 - [angular-resources](https://github.com/kahlil/angular-resources) - kahlil's angular resources
 - [ProLoser's gists](https://gist.github.com/ProLoser/4464334) - AngularJS Bootstrap implemented without additional code
+- [ngmodules](http://ngmodules.org/) - find angular moduels
+
 
 __tools__   
 - [Yeoman angularjs tool](https://github.com/yeoman/generator-angular) - generates scaffolding, controllers, routes, views, etc
@@ -61,7 +63,7 @@ __tools__
 ### Starter Templates
 - [AngularFun](https://github.com/CaryLandholt/AngularFun) - large application Reference Architecture.
 - [angular-sprout](https://github.com/thedigitalself/angular-sprout) - The scalable angular seed app 
-  - [thedigitalself article](http://thedigitalself.com/blog/angular-sprout-the-scalable-angular-seed-app)
+- [thedigitalself article](http://thedigitalself.com/blog/angular-sprout-the-scalable-angular-seed-app)
 - [anular-strap](http://mgcrea.github.com/angular-strap/) - Bootstrap directives for AngularJS.
 - [angular-socket-io](https://github.com/btford/angular-socket-io-seed.git) -  AngularJS apps backed by a Socket.io-powered node.js server
 - [angular-express](https://github.com/btford/angular-express-seed) - AngularJS apps backed by an Express-powered node.js serve
