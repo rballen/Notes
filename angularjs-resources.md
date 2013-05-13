@@ -2,17 +2,16 @@ AngularJS Resources
 ==========================
 `<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>)`
 
-__official__  
+### Bonafied 
 - [angularjs.org](http://angularjs.org/)
 - [github/angular](https://github.com/angular)
 - [docs](http://docs.angularjs.org/guide/overview)
-- [angular modules](http://ngmodules.org/)
 - [blog](http://blog.angularjs.org/)
 - [Google Groups](https://groups.google.com/forum/?fromgroups#!forum/angular)
 - [g+](https://plus.google.com/+AngularJS/posts)
 - [angularjs chanel](https://www.youtube.com/user/angularjs)
 
-__web resources__   
+### Web  
 - [twitter](https://twitter.com/angularjs)
 - [#angularjs](https://twitter.com/search?q=%23angularjs&src=hash)
 - [stackoverflow](http://stackoverflow.com/questions/tagged/angularjs)
@@ -20,7 +19,7 @@ __web resources__
 - [Built with](http://builtwith.angularjs.org/)
 - [scoop.it](http://www.scoop.it/t/angularjs)
 
-__code__    
+### Code
 - [plnkr](http://plnkr.co/) - online code collaboration
 - [JSFiddle Examples](https://github.com/angular/angular.js/wiki/JSFiddle-Examples)
 - [angular-resources](https://github.com/kahlil/angular-resources) - kahlil's angular resources
@@ -28,7 +27,7 @@ __code__
 - [ngmodules](http://ngmodules.org/) - find angular moduels
 
 
-__tools__   
+### Tools
 - [Yeoman angularjs tool](https://github.com/yeoman/generator-angular) - generates scaffolding, controllers, routes, views, etc
 - [AngularJS Batarang](https://github.com/angular/angularjs-batarang) - chrome extension
 - [AngularJS-sublime-package](https://github.com/angular-ui/AngularJS-sublime-package) - add custom modules also
@@ -40,6 +39,7 @@ __tools__
 - [adobe's getting started guide](http://www.adobe.com/devnet/html5/articles/getting-started-with-angularjs.html)
 - [AngularJS Fundamentals In 60-ish Minutes ](http://www.youtube.com/watch?v=i9MHigUZKEM&feature=youtu.be)
 - [Egghead.io](http://www.youtube.com/playlist?list=PLP6DbQBkn9ymGQh2qpk9ImLHdSH5T7yw7) -  Excellent AngularJS video tutorial course from Egghead.io 
+- [simpulton](http://www.youtube.com/user/simpulton) - another series of good videos
 - [fun with angularjs](http://devgirl.org/2013/03/21/fun-with-angularjs/)
 - [angularjs in depth](http://misox.blog.matfyz.sk/p23222-angularjs-in-depth-part-i) - a few other angular tuts too
 - [angularjs for jquery devs](http://blog.artlogic.com/2013/03/06/angularjs-for-jquery-developers/)
@@ -74,7 +74,7 @@ __tools__
 - [angular-express-mongoose-blog](https://github.com/timothybone/angular-express-mongoose-blog) - AngularJS app using an Express + Node.js backend. Mongoose used for database 
 - [angular github demo](https://github.com/ericclemmons/angular-github-demo) - demo calling Github API's
 
-### Popular Modules
+### Mo Modules
 - [angular-ui](http://angular-ui.github.io/)
 - [angular-ui bootstrap](http://angular-ui.github.io/bootstrap/)
 - [angular data grig](http://angular-ui.github.io/ng-grid/)
