@@ -2,12 +2,15 @@ cdn urls
 =======================================
 
 ### jquery
-`<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>`   
+`<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>`  
 `<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>`   
 
 ### twitter bootstrap
+
 __Complete CSS (Responsive, With Icons)__   
-`<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">`   
+`<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">`   
+__Complete CSS (Responsive, No Icons)__   
+`<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">`
 __Complete JavaScript__   
 `<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js"></script>`   
 __Responsive CSS__    
@@ -16,11 +19,11 @@ __Bootstrap CSS__
 `<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap.no-icons.min.css" rel="stylesheet">`   
 __bootstrap themes__     
 journal theme   
-`<link href="http://netdna.bootstrapcdn.com/bootswatch/2.1.1/journal/bootstrap.min.css" rel="stylesheet">`   
+`<link href="http://netdna.bootstrapcdn.com/bootswatch/2.3.1/journal/bootstrap.min.css" rel="stylesheet">`   
 united theme   
-`<link href="http://netdna.bootstrapcdn.com/bootswatch/2.1.1/united/bootstrap.min.css" rel="stylesheet">`   
+`<link href=http://netdna.bootstrapcdn.com/bootswatch/2.3.1/united/bootstrap.min.csss" rel="stylesheet">`   
 cyborg theme   
-`<link href="http://netdna.bootstrapcdn.com/bootswatch/2.1.1/cyborg/bootstrap.min.css" rel="stylesheet">`   
+`<link href="http://netdna.bootstrapcdn.com/bootswatch/2.3.1/cyborg/bootstrap.min.css" rel="stylesheet">`   
 
 ### Javascript Libraries & Frameworks
 `<script src="http://cdn.wijmo.com/themes/rocket/jquery-wijmo.css"></script>`   
