@@ -37,11 +37,7 @@ gem install zurb-foundation
 gem update zurb-foundation
 compass create my_project -r zurb-foundation --using foundation
 ```
-download [variables.scss](https://github.com/zurb/foundation/blob/master/scss/foundation/_variables.scss) and override then import to customize
-```sh
-@import "/path/to/settings";
-@import "/path/to/foundation";
-```
+- override sass/settings.scss to customize
 - [templates](http://foundation.zurb.com/templates.php)
 - [off-canvas templates](http://www.zurb.com/playground/off-canvas-layouts)
 
