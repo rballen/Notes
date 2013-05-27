@@ -7,7 +7,7 @@
 
  
 ### Install
-- compass, sass and plugins need ruby via [rvm](https://rvm.io/rvm/install/) and some gems
+compass, sass and plugins need ruby via [rvm](https://rvm.io/rvm/install/) and some [gems](http://guides.rubygems.org/command-reference/)   
 __ubuntu/arch:__   
 ```sh
 \curl -L https://get.rvm.io | bash -s stable --ruby
