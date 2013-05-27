@@ -1,5 +1,11 @@
-[Compass](http://compass-style.org/) and [SASS](http://sass-lang.com) 
+[Compass](http://compass-style.org/) and [SASS](http://sass-lang.com) Reference
 ========================================
+| compass   | sass          |  resources         |
+| --------- |:------------- | -------------:| 
+|[compass](http://compass-style.org/reference/compass/)|[Compass Recipes](http://compass-recipes.moox.fr/) |[35 Resources for Compass and Sass](http://fuelyourcoding.com/35-great-resources-for-compass-and-sass/)|
+|[sass](http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html)|[sass/less cheat sheet](https://gist.github.com/chriseppstein/674726)|[sassmeister](http://sassmeister.com/)|
+
+ 
 ### Installation
 > install ruby via [rvm](https://rvm.io/rvm/install/)  
 > dreamhost shared install `rvm pkg install libyaml && rvm reinstall all --force`  
@@ -7,12 +13,7 @@
 > `gem install sass`
 
 ### Docs
- * [sass referenece](http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html)
- * [compass reference](http://compass-style.org/reference/compass/)
- * [35 Resources for Compass and Sass](http://fuelyourcoding.com/35-great-resources-for-compass-and-sass/)
- * [Compass Recipes](http://compass-recipes.moox.fr/)
- * [sass/less cheat sheet](https://gist.github.com/chriseppstein/674726)
- * [sassmeister](http://sassmeister.com/)
+
 
 ### Compass
 >`compass help`          show all commands  
