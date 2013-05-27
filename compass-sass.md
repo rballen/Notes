@@ -21,14 +21,15 @@ gem install compass
 gem install sass
 ```
 ### Usage
->`compass help`          show all commands  
->`compass frameworks`     list frameworks   
->`compass validate`      compile css and validate with W3C  
->`compass compile`      compile to css  
->`compass watch`      watch for changes and compile  
->`sass sass/main.scss:stylesheets/main.css`
->`sass --watch sass/dir:css/dir`
-
+```sh
+compass help          (show all commands)  
+compass frameworks    (list frameworks)
+compass validate      (compile css and validate with W3C)
+compass compile      (compile to css)
+compass watch      (watch for changes and compile)
+sass sass/main.scss:stylesheets/main.css
+sass --watch sass/dir:css/dir
+``
 ### Frameworks / Plugins
 [__Zurb Foundation__](http://foundation.zurb.com/docs/sass.html)   
 ```sh
