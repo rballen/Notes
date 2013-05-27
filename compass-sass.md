@@ -30,19 +30,21 @@ gem install sass
 >`sass --watch sass/dir:css/dir`
 
 ### Frameworks / Plugins
+[__Zurb Foundation__](http://foundation.zurb.com/docs/sass.html) - `gem install zurb-foundation`
+> `compass create my_project -r zurb-foundation --using foundation`  
+> [templates](http://foundation.zurb.com/templates.php) and [off-canvas templates](http://www.zurb.com/playground/off-canvas-layouts)
 
-[__bootstrap-sass__](https://github.com/thomas-mcdonald/bootstrap-sass)
+[__bootstrap-sass__](https://github.com/thomas-mcdonald/bootstrap-sass)      
 ```sh
 gem install bootstrap-sass 
 compass create my_project -r bootstrap-sass --using bootstrap
-# add require 'bootstrap-sass' to config.rb  
-> existing projects use: `compass install bootstrap`  
-> add `@import "bootstrap";` to end of your scss file   
-> in your main.sass file, make your custom changes first then import boostrap to overide   
-> `$btnPrimaryBackground: #f00;`  
-> `@import "bootstrap";`  
-> `@import "bootstrap-responsive";`    
-    
+# add require bootstrap-sass to config.rb  
+# existing projects use: compass install bootstrap  
+# add @import "bootstrap"; to end of your scss file   
+# in your main.sass file, make your custom changes first then import boostrap to overide   
+@import "bootstrap";
+@import "bootstrap-responsive";   
+```       
 __[singularity](https://github.com/Team-Sass/Singularity/wiki)__    
 [video walkthru](http://vimeo.com/63509346)   
 ```sh
@@ -57,20 +59,11 @@ for ie 6 ad 7 you'll need this polyfil `compass install singularitygs/box-sizing
 
 singularity demo can be seen with `compass create sgs-demos -r singularitygs --using singularitygs/demos`
 
-[Zurb Foundation](http://foundation.zurb.com/docs/sass.html) - `gem install zurb-foundation`
-> `compass create my_project -r zurb-foundation --using foundation`  
-> [templates](http://foundation.zurb.com/templates.php) and [off-canvas templates](http://www.zurb.com/playground/off-canvas-layouts)
-
 [Susy responsive grids](http://susy.oddbird.net/) - `gem install susy`
 > [grid-types](http://susy.oddbird.net/demos/grid-types/)
 
 [RespondSASS](http://my-html-codes.com/respondsass/index.html) - `gem install respondsass`
 > `compass create my_project -r respondsass --using respondsass`
-
-[zen-grids](http://zengrids.com/) - `gem install zen-grids`
-
-
-### [Plugins and Mixins](http://thesassway.com/projects)
 
 - [sassy buttons](http://jaredhardy.com/sassy-buttons/) -`gem install sassy-buttons` | config.rg: `require 'sassy-buttons'`  
 > `@include sassy-button(gradient-style, border-radius, font-size, first-color, second-color, text-color, text-style, auto-states)`  
