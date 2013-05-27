@@ -6,11 +6,19 @@
 |[sass](http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html)|[sass/less cheat sheet](https://gist.github.com/chriseppstein/674726)|[sassmeister](http://sassmeister.com/)|
 
  
-### Installation
-> install ruby via [rvm](https://rvm.io/rvm/install/)  
-> dreamhost shared install `rvm pkg install libyaml && rvm reinstall all --force`  
-> `gem install compass`
-> `gem install sass`
+### Install
+install ruby with [rvm](https://rvm.io/rvm/install/)
+```sh
+\curl -L https://get.rvm.io | bash -s stable --ruby
+gem install compass
+gem install sass
+```   
+dreamhost shared install (already has ruby)
+```sh
+rvm pkg install libyaml && rvm reinstall all --force
+gem install compass
+gem install sass
+```
 
 ### Docs
 
