@@ -7,13 +7,14 @@
 
  
 ### Install
-install ruby with [rvm](https://rvm.io/rvm/install/)
+- compass, sass and plugins need ruby via [rvm](https://rvm.io/rvm/install/) and some gems
+__ubuntu/arch:__   
 ```sh
 \curl -L https://get.rvm.io | bash -s stable --ruby
 gem install compass
 gem install sass
 ```   
-dreamhost shared install (already has ruby)
+__dreamhost shared:__
 ```sh
 rvm pkg install libyaml && rvm reinstall all --force
 gem install compass
