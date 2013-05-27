@@ -30,9 +30,13 @@ gem install sass
 >`sass --watch sass/dir:css/dir`
 
 ### Frameworks / Plugins
-[__Zurb Foundation__](http://foundation.zurb.com/docs/sass.html) - `gem install zurb-foundation`
-> `compass create my_project -r zurb-foundation --using foundation`  
-> [templates](http://foundation.zurb.com/templates.php) and [off-canvas templates](http://www.zurb.com/playground/off-canvas-layouts)
+[__Zurb Foundation__](http://foundation.zurb.com/docs/sass.html)   
+```sh
+gem install zurb-foundation
+compass create my_project -r zurb-foundation --using foundation
+```
+- [templates](http://foundation.zurb.com/templates.php)
+- [off-canvas templates](http://www.zurb.com/playground/off-canvas-layouts)
 
 [__bootstrap-sass__](https://github.com/thomas-mcdonald/bootstrap-sass)      
 ```sh
