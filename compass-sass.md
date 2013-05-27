@@ -20,22 +20,22 @@ rvm pkg install libyaml && rvm reinstall all --force
 gem install compass
 gem install sass
 ```
-
-### Docs
-
-
-### Compass
+### Usage
 >`compass help`          show all commands  
 >`compass frameworks`     list frameworks   
 >`compass validate`      compile css and validate with W3C  
 >`compass compile`      compile to css  
 >`compass watch`      watch for changes and compile  
+>`sass sass/main.scss:stylesheets/main.css`
+>`sass --watch sass/dir:css/dir`
 
-### Frameworks and Grids
+### Frameworks / Plugins
 
-[bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sass) - `gem install bootstrap-sass`
-> `compass create my_project -r bootstrap-sass --using bootstrap`  
-> add `require 'bootstrap-sass'` to config.rb  
+[__bootstrap-sass__](https://github.com/thomas-mcdonald/bootstrap-sass)
+```sh
+gem install bootstrap-sass 
+compass create my_project -r bootstrap-sass --using bootstrap
+# add require 'bootstrap-sass' to config.rb  
 > existing projects use: `compass install bootstrap`  
 > add `@import "bootstrap";` to end of your scss file   
 > in your main.sass file, make your custom changes first then import boostrap to overide   
