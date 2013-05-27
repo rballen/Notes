@@ -34,7 +34,13 @@ sass --watch sass/dir:css/dir
 [__Zurb Foundation__](http://foundation.zurb.com/docs/sass.html)   
 ```sh
 gem install zurb-foundation
+gem update zurb-foundation
 compass create my_project -r zurb-foundation --using foundation
+```
+download [variables.scss](https://github.com/zurb/foundation/blob/master/scss/foundation/_variables.scss)and customize
+```sh
+@import "/path/to/settings";
+@import "/path/to/foundation";
 ```
 - [templates](http://foundation.zurb.com/templates.php)
 - [off-canvas templates](http://www.zurb.com/playground/off-canvas-layouts)
