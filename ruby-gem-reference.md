@@ -18,7 +18,7 @@ rvm info                # all the details
 ```
 
 #### userful gems for webdev
-`gem install bundler rake jekyll`          
+`gem install bundler rake jekyll vagrant`          
 [toolkit](https://github.com/Snugug/toolkit) - `gem install jsduck toolkit`    
 ___color___    
 `gem install compass compass-recipes compass-colors`      
