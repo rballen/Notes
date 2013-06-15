@@ -75,6 +75,10 @@ npm install -g recess connect uglify-js jshint hogan.js
 - [phantomjs](http://phantomjs.org/)
 - [couchdb with nodejs](http://zoddy.github.com/cushion/)    
 
+### couchdb
+sudo apt-get install couchdb
+git clone https://github.com/Zoddy/cushion.git
+
 ### [cloud9 ide](https://github.com/ajaxorg/cloud9) 
 this worked on ubuntu 13.04 and manjaro (arch) 8.5.1     
 __install__   
