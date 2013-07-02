@@ -3,25 +3,31 @@ ruby and gems
 
 ### Install with [rvm](http://rvm.io)
 ```sh
-\curl -L https://get.rvm.io | bash -s stable --ruby
+\curl -L https://get.rvm.io | bash -s stable
 echo 'source ~/.rvm/scripts/rvm' >> ~/.bashrc
 source ~/.bashrc
-rvm requirements 
+rvm requirements  # install any requirements
 ```
 verify that output of:   
 `type rvm | head -n 1`
 should be `rvm is a function`  
 ```sh
-rvm list known
-rvm requirements        # for any dependancies
+rvm list known          # list known rubies
+rvm install ruby-head   # install latest
+rvm use 2.0.0-p247 --default     # use it and set it to default
+ruby -v 				# verify version
+which ruby				# verify location
 rvm info                # all the details
 ```
 
-#### userful gems for webdev
-`gem install bundler rake jekyll vagrant`          
-[toolkit](https://github.com/Snugug/toolkit) - `gem install jsduck toolkit`    
-___color___    
-`gem install compass compass-recipes compass-colors`      
+#### userful [gems](http://rubygems.org/gems)
+__develop, build, serve__
+`gem install bundler rake jekyll vagrant`    
+__webdev__
+`gem install compass sass`    [compass](http://compass-style.org/) [sass](http://sass-lang.com/)    
+`gem install toolkit jsduck`  [toolkit](https://github.com/Snugug/toolkit)      
+___sassy color help___    
+`gem install compass-recipes compass-colors`      
 [color-schemer](https://github.com/scottkellum/color-schemer) - `gem install color-schemer`    
 ___frameworks___    
 `gem install bootstrap-sass zurb-foundation`   
