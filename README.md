@@ -8,7 +8,7 @@ reference guides, set-ups, notes, links, stuff I can't remember ...
 - [markdown](https://github.com/rballen/documents/blob/master/md-reference.md)  
 - [strapdown](https://github.com/rballen/documents/blob/master/markdown.html)
 - [nodejs](https://github.com/rballen/documents/blob/master/nodejs.md)    
-- [ruby](https://github.com/rballen/documents/blob/master/ruby.md)    
+- [ruby-gem](https://github.com/rballen/documents/blob/master/ruby-gem-reference.md)    
 - [sublime-text-2](https://github.com/rballen/documents/blob/master/sublime-text-2.md)    
 - [webdev](https://github.com/rballen/documents/blob/master/webdev-resources.md) - link list :)         
 - [yeoman](https://github.com/rballen/documents/blob/master/yeoman.md)         
