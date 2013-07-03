@@ -65,27 +65,27 @@ __useful__
 `npm install -g recess connect uglify-js jshint hogan.js`     
 
 ### related
-- [phantomjs](http://phantomjs.org/)
+- [phantomjs](http://phantomjs.org/)   
 - [couchdb with nodejs](http://zoddy.github.com/cushion/)    
 
 ### couchdb
-sudo apt-get install couchdb
-git clone https://github.com/Zoddy/cushion.git
+sudo apt-get install couchdb   
+git clone https://github.com/Zoddy/cushion.git   
 
 ### mongodb
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
-echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/10gen.list
-sudo apt-get update && sudo apt-get install mongodb-10gen
-sudo service mongodb start
-gem install humongous
-humongous  # at cli to start 
-humongous -K # at cli to stop
-install robomongo from http://robomongo.org/
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10   
+echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/10gen.list   
+sudo apt-get update && sudo apt-get install mongodb-10gen   
+sudo service mongodb start   
+gem install humongous   
+humongous  # at cli to start    
+humongous -K # at cli to stop    
+install robomongo from http://robomongo.org/    
 
 ### [cloud9 ide](https://github.com/ajaxorg/cloud9) 
-this worked on ubuntu 13.04 and manjaro (arch) 8.5.1     
-__install__   
-```sh
+this worked on ubuntu 13.04 and manjaro (arch) 8.5.1        
+__install__     
+```sh   
 nvm install v0.8.22  
 nvm use 0.8.22   
 cd ~/bin   
