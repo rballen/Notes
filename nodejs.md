@@ -32,7 +32,8 @@ arch linux add `export PYTHON=python2` to your .bash_profile
 open ~/.bash_profile or ~/.profile and cut the last line about nvm.sh and paste to end of your ~/.bashrc (.bashrc is just my preference)
 
 ### nvm commands
-`source ~/.bashrc`  source your shell   
+`source ~/.bashrc`  source your shell  
+works better if you get the version from [nodejs.org](nodejs.org)   
 `nvm ls-remote` list nodejs versions    
 `nvm ls` list local versions   
 `nvm install v0.10.2`  use latest as default   
@@ -46,30 +47,23 @@ open ~/.bash_profile or ~/.profile and cut the last line about nvm.sh and paste 
 npm command - install update search docs list uninstall update       
 `npm update npm -g` update npm    
 `npm install <package>` local install of package    
-`npm install -g <package>` global install      
+`npm install -g <package>` global install    
+`npm cache clean`   clean up install packages' cache
 
 ### Packages
-[__angularjs__](http://angularjs.org/)    
-`npm install -g angular karma`        
+[__yeoman__](http://yeoman.io) - also installs [grunt](http://gruntjs.com/) and [bower](http://bower.io/)   
+`npm install -g yo`       
+`npm install -g generator-webapp generator-angular generator-foundation`  basic scaffolding for twitter-bootstrap webapp, angularjs and [zurb-foundation](https://npmjs.org/package/generator-foundation) - foundation rarely works       
+`npm search yeoman-generator` list all yeoman generators   
+ 
+__useful__   
+`npm install -g enhance-css` - base64 all images in css   
+`npm install -g caminte` - [camintejs](http://www.camintejs.com/) ORM for mongodb, mysql, sqlite, neo4j    
+`npm install --save feedr` - convert all feeds to json    
+`npm install -g express coffee-script jslint less`   
+`npm install -g marked jsontool`    
+`npm install -g recess connect uglify-js jshint hogan.js`     
 
-[__yeoman__](http://yeoman.io)   
-`npm install -g yo grunt-cli bower` yeoman,  grunt and bower     
-`npm install -g generator-webapp generator-angular yeoman-foundation`  basic scaffolding for generic, angularjs and zurb-foundation   
-
-[__docpad__](http://docpad.org/docs/plugins)    
-`npm install -g npm`    update npm first      
-`npm install -g docpad@6.29`      
-
-__popular__   
-```sh
-npm install -g enhance-css     # base64 all images in css   
-npm install -g caminte  # ORM: mongodb, mysql, sqlite, neo4j  http://www.camintejs.com/   
-npm install --save feedr   # convert all feeds to json    
-npm install -g node-dev node-inspector nodemon
-npm install -g express coffee-script jslint less   
-npm install -g marked jsontool   
-npm install -g recess connect uglify-js jshint hogan.js
-```
 ### related
 - [phantomjs](http://phantomjs.org/)
 - [couchdb with nodejs](http://zoddy.github.com/cushion/)    
