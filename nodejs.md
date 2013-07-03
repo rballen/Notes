@@ -32,33 +32,33 @@ arch linux add `export PYTHON=python2` to your .bash_profile
 open ~/.bash_profile or ~/.profile and cut the last line about nvm.sh and paste to end of your ~/.bashrc (.bashrc is just my preference)
 
 ### nvm commands
-`source ~/.bashrc`  source your shell
-`nvm ls-remote` list nodejs versions
-`nvm ls` list local versions
-`nvm install v0.10.2`  use latest as default
-`nvm alias default 0.10.2 ` sets the default version
-`node --version` verify
-`echo '[[ -r $NVM_DIR/bash_completion ]] && . $NVM_DIR/bash_completion' >> .bashrc` for tab completion
-`source ~/.bashrc` source yourself again
-`nvm [tab][tab]` and test
+`source ~/.bashrc`  source your shell   
+`nvm ls-remote` list nodejs versions    
+`nvm ls` list local versions   
+`nvm install v0.10.2`  use latest as default   
+`nvm alias default 0.10.2 ` sets the default version   
+`node --version` verify    
+`echo '[[ -r $NVM_DIR/bash_completion ]] && . $NVM_DIR/bash_completion' >> .bashrc` for tab completion   
+`source ~/.bashrc` source yourself again   
+`nvm [tab][tab]` and test    
 
 ### [npm](https://npmjs.org/) commands - Node Package Manager
-npm command - install update search docs list uninstall update    
-`npm update npm -g` update npm
-`npm install <package>` local install of package
-`npm install -g <package>` global install   
+npm command - install update search docs list uninstall update       
+`npm update npm -g` update npm    
+`npm install <package>` local install of package    
+`npm install -g <package>` global install      
 
 ### Packages
 [__angularjs__](http://angularjs.org/)    
 `npm install -g angular karma`        
 
 [__yeoman__](http://yeoman.io)   
-`npm install -g yo grunt-cli bower`    # yeoman,  grunt and bower     
-`npm install -g generator-webapp generator-angular yeoman-foundation`  basic scaffolding for generic, angularjs and zurb-foundation
+`npm install -g yo grunt-cli bower` yeoman,  grunt and bower     
+`npm install -g generator-webapp generator-angular yeoman-foundation`  basic scaffolding for generic, angularjs and zurb-foundation   
 
 [__docpad__](http://docpad.org/docs/plugins)    
-`npm install -g npm`     # update npm first   
-`npm install -g docpad@6.29`   
+`npm install -g npm`    update npm first      
+`npm install -g docpad@6.29`      
 
 __popular__   
 ```sh
