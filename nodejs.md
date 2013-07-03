@@ -21,41 +21,40 @@ Aggregating my nodejs resources - quick setup, tutorials, cloud9 ide. useful pac
 - [debugging mem leeks](http://dtrace.org/blogs/bmc/2012/05/05/debugging-node-js-memory-leaks/)
 
 ### debian based dependancies
-```ag
-sudo apt-get install -y build-essential curl checkinstall make pkg-config git-core   
+```sh
+sudo apt-get install -y build-essential curl checkinstall make pkg-config git-core
 sudo apt-get install -y openssl libxml2-dev libssl-dev gcc g++ apache2-utils   
 ```
 
 ### Installation with [nvm](https://raw.github.com/creationix/nvm)
 arch linux add `export PYTHON=python2` to your .bash_profile    
-```sh  
-wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh  
-# open ~/.bash_profile or ~/.profile and cut the last line about nvm.sh and paste to end of your ~/.bashrc
-source ~/.bashrc
-nvm ls-remote   # list nodejs versions   
-nvm ls          # list local versions    
-nvm install v0.10.2   # use latest as default
-nvm alias default 0.10.2   # sets the default version
-node --version     
-echo '[[ -r $NVM_DIR/bash_completion ]] && . $NVM_DIR/bash_completion' >> .bashrc
-source ~/.bashrc
-nvm [tab][tab]
-```
-### [npm](https://npmjs.org/) - Node Package Manager
-npm <command> : install update search author docs list linkj tag uninstall update etc   
-```sh
-npm update npm -g   
-npm install <package>       # local install   
-npm install -g <package>    # global install   
-```
+`wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh`   
+open ~/.bash_profile or ~/.profile and cut the last line about nvm.sh and paste to end of your ~/.bashrc (.bashrc is just my preference)
+
+### nvm commands
+`source ~/.bashrc`  source your shell
+`nvm ls-remote` list nodejs versions
+`nvm ls` list local versions
+`nvm install v0.10.2`  use latest as default
+`nvm alias default 0.10.2 ` sets the default version
+`node --version` verify
+`echo '[[ -r $NVM_DIR/bash_completion ]] && . $NVM_DIR/bash_completion' >> .bashrc` for tab completion
+`source ~/.bashrc` source yourself again
+`nvm [tab][tab]` and test
+
+### [npm](https://npmjs.org/) commands - Node Package Manager
+npm command - install update search docs list uninstall update    
+`npm update npm -g` update npm
+`npm install <package>` local install of package
+`npm install -g <package>` global install   
+
 ### Packages
 [__angularjs__](http://angularjs.org/)    
 `npm install -g angular karma`        
 
 [__yeoman__](http://yeoman.io)   
 `npm install -g yo grunt-cli bower`    # yeoman,  grunt and bower     
-`npm install -g yeoman-foundation`     # scafolding for zurb foundation  
-`npm install -g generator-angular`     # scafolding for angularjs 
+`npm install -g generator-webapp generator-angular yeoman-foundation`  basic scaffolding for generic, angularjs and zurb-foundation
 
 [__docpad__](http://docpad.org/docs/plugins)    
 `npm install -g npm`     # update npm first   
