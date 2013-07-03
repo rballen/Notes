@@ -72,10 +72,17 @@ __useful__
 sudo apt-get install couchdb   
 git clone https://github.com/Zoddy/cushion.git   
 
-### mongodb
+### [mongodb](http://www.mongodb.org/)
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10   
 echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/10gen.list   
-sudo apt-get update && sudo apt-get install mongodb-10gen   
+sudo apt-get update && sudo apt-get install mongodb-10gen  
+sudo usermod -aG mongodb ra   
+mkdir -p /media/data/db/mongodb
+
+sudo vi /etc/mongodb.conf    
+dbpath=/media/data/db/mongodb    
+logpath=/media/data/db/mongodb/mongodb.log   
+
 sudo service mongodb start   
 gem install humongous   
 humongous  # at cli to start    
