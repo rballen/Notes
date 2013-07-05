@@ -7,14 +7,9 @@
 
  
 ### Install
-compass, sass and plugins need ruby via [rvm](https://rvm.io/rvm/install/) and some [gems](http://guides.rubygems.org/command-reference/)   
-__ubuntu/arch:__   
-```sh
-\curl -L https://get.rvm.io | bash -s stable --ruby
-gem install compass
-gem install sass
-```   
-__dreamhost shared:__
+depends on ruby and some gems outlined in [ruby-gem-reference](https://github.com/rballen/documents/blob/master/ruby-gem-reference.md)
+
+__xtra steps for my dreamhost shared:__
 ```sh
 rvm pkg install libyaml && rvm reinstall all --force
 gem install compass
@@ -27,10 +22,10 @@ compass frameworks    (list frameworks)
 compass validate      (compile css and validate with W3C)
 compass compile      (compile to css)
 compass watch      (watch for changes and compile)
-sass sass/main.scss:stylesheets/main.css
-sass --watch sass/dir:css/dir
+sass sass/main.scss:stylesheets/main.css  (compile sass)
+sass --watch sass/dir:css/dir    (watch for changes and compile)
 ```
-### Frameworks / Plugins
+### Projects
 [__Zurb Foundation__](http://foundation.zurb.com/docs/sass.html)   
 ```sh
 gem install zurb-foundation
@@ -39,7 +34,6 @@ compass create my_project -r zurb-foundation --using foundation
 ```
 - override sass/settings.scss to customize
 - [templates](http://foundation.zurb.com/templates.php)
-- [off-canvas templates](http://www.zurb.com/playground/off-canvas-layouts)
 
 [__bootstrap-sass__](https://github.com/thomas-mcdonald/bootstrap-sass)      
 ```sh
