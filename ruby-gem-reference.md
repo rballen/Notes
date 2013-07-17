@@ -19,7 +19,9 @@ rvm use 2.0.0-p195 --default     # use it and set it to default
 ruby -v 				# verify version
 which ruby				# verify location
 rvm info                # all the details
-```
+```   
+to make things faster i don't install the docs and set it globally in my ~/gemrc   
+`gem: --no-ri --no-rdoc`   
 
 ### [gems](http://rubygems.org/gems)
 
