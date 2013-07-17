@@ -50,5 +50,6 @@ ___responsive___
 `gem install --no-rdoc --no-ri susy respondsass respond-to modular-scale` [respondsass](http://my-html-codes.com/respondsass/documentation.html), [respond-to](https://github.com/snugug/respond-to), [modular-scale](https://github.com/scottkellum/modular-scale)
 
 ___update___    
-`gem update --system`           # update gems to latest   
+`gem update`                     # update installed rubies to latest version
+`gem update --system`            # update rubygem software   
 `gem update zurb-foundation`     # update single gem
