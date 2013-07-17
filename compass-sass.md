@@ -60,7 +60,7 @@ for ie 6 ad 7 you'll need this polyfil `compass install singularitygs/box-sizing
 
 singularity demo can be seen with `compass create sgs-demos -r singularitygs --using singularitygs/demos`
 
-[Susy responsive grids](http://susy.oddbird.net/) - `gem install susy`
+[Susy responsive grids](http://susy.oddbird.net/) - `gem install susy` then  `compass create <project name> -r susy -u susy` or `require "susy"` to config.rb       
 > [grid-types](http://susy.oddbird.net/demos/grid-types/)
 
 [RespondSASS](http://my-html-codes.com/respondsass/index.html) - `gem install respondsass`
