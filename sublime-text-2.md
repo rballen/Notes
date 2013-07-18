@@ -20,7 +20,7 @@ __good workflows__
 |ctrl+shift+b     | build                |  -              |         -                |
 |select text block ctrl_shift+L| multiselect  |  select word alt+f3  |  multiselect   |
 |mouse + ctrl     | multiselect  |  mouse + ctrl           |  multiselect deselect    |
-| -  | - | - |  - |
+| ctrl+shift+L | stylesheet vars | - |  - |
 |-   | - | - |  - |
 
 ### code snippets
@@ -49,7 +49,7 @@ __code and syntax:__
 [Web Inspector](http://sokolovstas.github.com/SublimeWebInspector/) -  realtime javascript debugging with chrome.  
 Syntax Highlighting for Sass,Compass, SCSS, LESS             
 Dotfiles Syntax Highlighting, Sublime-HTMLPrettify, Pretty JSON, Tag, jQuery   
-HTML5, Puppet, Puppet Syntax Checking   
+HTML5, Puppet, Puppet Syntax Checking, Stylesheet vars  
 
 
 __snippets:__  
