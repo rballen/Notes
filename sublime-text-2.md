@@ -20,8 +20,8 @@ __good workflows__
 |ctrl+shift+b     | build                |  -              |         -                |
 |select text block ctrl_shift+L| multiselect  |  select word alt+f3  |  multiselect   |
 |mouse + ctrl     | multiselect  |  mouse + ctrl           |  multiselect deselect    |
-| ctrl+shift+L | stylesheet vars | super+shift+h | html-js-css-prettify |
-|-   | - | - |  - |
+| ctrl+shift+L | ls stylesheet vars | super+shift+h | html-js-css-prettify |
+| ctrl+t | sidebar: new file | ctrl+alt+f | sidebar: find files containing |
 
 ### code snippets
 
