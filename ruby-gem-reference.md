@@ -20,7 +20,7 @@ ruby -v 				# verify version
 which ruby				# verify location
 rvm info                # all the details
 ```   
-to make things faster i don't install the docs and set it globally in my ~/gemrc   
+to make things faster i don't install the docs and set it globally in my ~/.gemrc   
 `gem: --no-ri --no-rdoc`   
 
 ### [gems](http://rubygems.org/gems)
