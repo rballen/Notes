@@ -38,7 +38,7 @@ __document__
 `gem install --no-rdoc --no-ri jsduck`    [jsduck](https://github.com/senchalabs/jsduck)    
 
 ___sassy color help___    
-`gem install --no-rdoc --no-ri compass-colors color-schemer` [compass-colors](https://github.com/chriseppstein/compass-colors) , [color-schemer](https://github.com/scottkellum/color-schemer)
+`gem install compass-colors color-schemer sassafras` [compass-colors](https://github.com/chriseppstein/compass-colors) , [color-schemer](https://github.com/scottkellum/color-schemer), [sassafras](https://github.com/teejayvanslyke/sassafras)
   
 ___frameworks___     
 `gem install --no-rdoc --no-ri bootstrap-sass zurb-foundation` [bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sass), [zurb-foundation](http://foundation.zurb.com/docs/sass.html), [bourbon](http://bourbon.io/), [neat](http://neat.bourbon.io/)  
