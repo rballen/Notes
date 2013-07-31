@@ -32,7 +32,7 @@ __modern webdev__
 `gem install compass sass`  [compass](http://compass-style.org/) ,[sass](http://sass-lang.com/)    
 
 __sass & compass helpers__   
-`gem install --no-rdoc --no-ri toolkit compass-recipes` [toolkit](https://github.com/Snugug/toolkit) , [compass-recipes](http://compass-recipes.moox.fr/)
+`gem install --no-rdoc --no-ri toolkit compass-recipes compass-normalize` [toolkit](https://github.com/Snugug/toolkit) , [compass-recipes](http://compass-recipes.moox.fr/)
 
 __document__   
 `gem install --no-rdoc --no-ri jsduck`    [jsduck](https://github.com/senchalabs/jsduck)    
