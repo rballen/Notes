@@ -61,7 +61,7 @@ __useful__
 `npm install -g caminte` - [camintejs](http://www.camintejs.com/) ORM for mongodb, mysql, sqlite, neo4j    
 `npm install --save feedr` - convert all feeds to json    
 `npm install -g express coffee-script jslint less`   
-`npm install -g marked jsontool`    
+`npm install -g marked jsontool doctoc` - markdown, documenting and json tools    
 `npm install -g recess connect uglify-js jshint hogan.js`     
 
 ### related
