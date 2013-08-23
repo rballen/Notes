@@ -3,6 +3,8 @@
 Modern workflows for modern webapps
 >creates project structure, minifies, concatenates, optimizes images, compiles coffee-script and compass, lints, built in server, packages, builds, deploys, tests, my goodness.
 
+[Automating Your Front-End Workflow With Yeoman](http://www.youtube.com/watch?v=iUQ1fvdO9GY#t=10) - youtube walkthru by addy
+
 ### Install
 ___requires node.js___   
 `npm install -g yo `  - installs grunt-cli and bower automatically          
