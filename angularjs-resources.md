@@ -23,6 +23,8 @@ see jmcunningham's [AngularJS-Learning](https://github.com/jmcunningham/AngularJ
 - [Projects using](https://github.com/angular/angular.js/wiki/Projects-using-AngularJS)
 - [Built with](http://builtwith.angularjs.org/)
 - [scoop.it](http://www.scoop.it/t/angularjs)
+- [angularjs-magazine](https://flipboard.com/section/the-angularjs-magazine-bP12ur)
+- [angularjsdaily](http://www.angularjsdaily.com/)
 
 ### Code
 - [plnkr](http://plnkr.co/) - online code collaboration
@@ -30,7 +32,8 @@ see jmcunningham's [AngularJS-Learning](https://github.com/jmcunningham/AngularJ
 - [angular-resources](https://github.com/kahlil/angular-resources) - kahlil's angular resources
 - [ProLoser's gists](https://gist.github.com/ProLoser/4464334) - AngularJS Bootstrap implemented without additional code
 - [ngmodules](http://ngmodules.org/) - find angular moduels
-
+- [MacGyver](http://starttheshift.github.io/MacGyver/example/index.html) - reusable directives, filters and utilities
+  - `bower install angular-macgyver` and `angular.module(‘myModule’, [“Mac”])`
 
 ### Tools
 - [Yeoman angularjs tool](https://github.com/yeoman/generator-angular) - generates scaffolding, controllers, routes, views, etc
@@ -86,7 +89,7 @@ see jmcunningham's [AngularJS-Learning](https://github.com/jmcunningham/AngularJ
 - [angular-dragon-drop](https://github.com/btford/angular-dragon-drop.git)
 - [angular-gestures](https://github.com/wzr1337/angular-gestures.git)
 - [angular-collection](https://github.com/tomkuk/angular-collection) - allows objects to be added, removed, updated, sorted and fetched at a specific index. 
-- [restangular](https://github.com/mgonto/restangular)
+- [restangular](https://github.com/mgonto/restangular) - using REST services
 - [angular-resources](https://github.com/kahlil/angular-resources)
 - [angular-bridge](https://github.com/Alexandre-Strzelewicz/angular-bridge.git) - Link models via REST interface between Mongoose/Node-Express/Angular.js
 
