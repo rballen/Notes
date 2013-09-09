@@ -1,6 +1,11 @@
 AngularJS Resources
 ==========================
-`<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>)`
+see jmcunningham's [AngularJS-Learning](https://github.com/jmcunningham/AngularJS-Learning) for an indepth list.
+
+### Scripts
+```html
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+```
 
 ### Bonafied 
 - [angularjs.org](http://angularjs.org/)
