@@ -78,7 +78,7 @@ see jmcunningham's [AngularJS-Learning](https://github.com/jmcunningham/AngularJ
 - [angular-express-mongoose-blog](https://github.com/timothybone/angular-express-mongoose-blog) - AngularJS app using an Express + Node.js backend. Mongoose used for database 
 - [angular github demo](https://github.com/ericclemmons/angular-github-demo) - demo calling Github API's
 - [cleverstack-angular-seed](https://github.com/clevertech/cleverstack-angular-seed) - Docular, Grunt, Karma
-
+- [angular-app](https://github.com/angular-app/angular-app.git) - CRUD, best practices
 
 ### Mo Modules
 - [ngmodules](http://ngmodules.org/) - find angular moduels
