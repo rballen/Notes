@@ -26,20 +26,16 @@ see jmcunningham's [AngularJS-Learning](https://github.com/jmcunningham/AngularJ
 - [angularjs-magazine](https://flipboard.com/section/the-angularjs-magazine-bP12ur)
 - [angularjsdaily](http://www.angularjsdaily.com/)
 
-### Code
-- [plnkr](http://plnkr.co/) - online code collaboration
-- [JSFiddle Examples](https://github.com/angular/angular.js/wiki/JSFiddle-Examples)
-- [angular-resources](https://github.com/kahlil/angular-resources) - kahlil's angular resources
-- [ProLoser's gists](https://gist.github.com/ProLoser/4464334) - AngularJS Bootstrap implemented without additional code
-- [ngmodules](http://ngmodules.org/) - find angular moduels
-- [MacGyver](http://starttheshift.github.io/MacGyver/example/index.html) - reusable directives, filters and utilities
-  - `bower install angular-macgyver` and `angular.module(‘myModule’, [“Mac”])`
 
-### Tools
+### Tools & Code Examples
 - [Yeoman angularjs tool](https://github.com/yeoman/generator-angular) - generates scaffolding, controllers, routes, views, etc
 - [AngularJS Batarang](https://github.com/angular/angularjs-batarang) - chrome extension
 - [AngularJS-sublime-package](https://github.com/angular-ui/AngularJS-sublime-package) - add custom modules also
 - [WebStorm IDE for AngularJS](https://www.youtube.com/watch?v=LJOyrSh1kDU)
+- [plnkr](http://plnkr.co/) - online code collaboration
+- [JSFiddle Examples](https://github.com/angular/angular.js/wiki/JSFiddle-Examples)
+- [ProLoser's gists](https://gist.github.com/ProLoser/4464334) - AngularJS Bootstrap implemented without additional code
+- [cheat-sheet](http://www.cheatography.com/proloser/cheat-sheets/angularjs/)
 
 ### Tutorials
 - [official tutorial](http://docs.angularjs.org/tutorial)
@@ -81,18 +77,25 @@ see jmcunningham's [AngularJS-Learning](https://github.com/jmcunningham/AngularJ
 - [ngneer](https://github.com/stephanebisson/ngneer.git)- Scaffolding tool for angularjs
 - [angular-express-mongoose-blog](https://github.com/timothybone/angular-express-mongoose-blog) - AngularJS app using an Express + Node.js backend. Mongoose used for database 
 - [angular github demo](https://github.com/ericclemmons/angular-github-demo) - demo calling Github API's
+- [cleverstack-angular-seed](https://github.com/clevertech/cleverstack-angular-seed) - Docular, Grunt, Karma
+
 
 ### Mo Modules
+- [ngmodules](http://ngmodules.org/) - find angular moduels
+- [npm](https://npmjs.org/search?q=angular) - search for node registered modules
+- [bower](http://bower.io) - bower search angular 
 - [angular-ui](http://angular-ui.github.io/)
 - [angular-ui bootstrap](http://angular-ui.github.io/bootstrap/)
-- [angular data grig](http://angular-ui.github.io/ng-grid/)
+- [angular-data grig](http://angular-ui.github.io/ng-grid/)
 - [angular-dragon-drop](https://github.com/btford/angular-dragon-drop.git)
 - [angular-gestures](https://github.com/wzr1337/angular-gestures.git)
 - [angular-collection](https://github.com/tomkuk/angular-collection) - allows objects to be added, removed, updated, sorted and fetched at a specific index. 
 - [restangular](https://github.com/mgonto/restangular) - using REST services
 - [angular-resources](https://github.com/kahlil/angular-resources)
 - [angular-bridge](https://github.com/Alexandre-Strzelewicz/angular-bridge.git) - Link models via REST interface between Mongoose/Node-Express/Angular.js
-
+- [angular-resources](https://github.com/kahlil/angular-resources) - kahlil's angular resources
+- [MacGyver](http://starttheshift.github.io/MacGyver/example/index.html) - reusable directives, filters and utilities
+  - `bower install angular-macgyver` and `angular.module(‘myModule’, [“Mac”])`
 
 
 
