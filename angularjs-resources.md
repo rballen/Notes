@@ -96,7 +96,7 @@ see jmcunningham's [AngularJS-Learning](https://github.com/jmcunningham/AngularJ
 - [angular-resources](https://github.com/kahlil/angular-resources) - kahlil's angular resources
 - [MacGyver](http://starttheshift.github.io/MacGyver/example/index.html) - reusable directives, filters and utilities
   - `bower install angular-macgyver` and `angular.module(‘myModule’, [“Mac”])`
-
+- [ngStorage](https://github.com/gsklee/ngStorage)
 
 
 
