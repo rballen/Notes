@@ -21,33 +21,33 @@ which ruby				# verify location
 rvm info                # all the details
 ```   
 to make things faster i don't install the docs and set it globally in my ~/.gemrc   
-`gem: --no-ri --no-rdoc`   
+echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 
 ### [gems](http://rubygems.org/gems)
 
 __develop, build, serve__   
-`gem install --no-rdoc --no-ri bundler rake jekyll vagrant`[bundler](http://bundler.io/), [rake](http://rake.rubyforge.org/),  [jekyll](http://jekyllrb.com/), [vagrant](http://www.vagrantup.com/)   
+`gem install  bundler rake jekyll vagrant`[bundler](http://bundler.io/), [rake](http://rake.rubyforge.org/),  [jekyll](http://jekyllrb.com/), [vagrant](http://www.vagrantup.com/)   
 
 __modern webdev__    
 `gem install compass sass`  [compass](http://compass-style.org/) ,[sass](http://sass-lang.com/)    
 
 __sass & compass helpers__   
-`gem install --no-rdoc --no-ri toolkit compass-recipes compass-normalize` [toolkit](https://github.com/Snugug/toolkit) , [compass-recipes](http://compass-recipes.moox.fr/)
+`gem install  toolkit compass-recipes compass-normalize` [toolkit](https://github.com/Snugug/toolkit) , [compass-recipes](http://compass-recipes.moox.fr/)
 
 __document__   
-`gem install --no-rdoc --no-ri jsduck`    [jsduck](https://github.com/senchalabs/jsduck)    
+`gem install  jsduck`    [jsduck](https://github.com/senchalabs/jsduck)    
 
 ___sassy color help___    
 `gem install compass-colors color-schemer sassafras` [compass-colors](https://github.com/chriseppstein/compass-colors) , [color-schemer](https://github.com/scottkellum/color-schemer), [sassafras](https://github.com/teejayvanslyke/sassafras)
   
 ___frameworks___     
-`gem install --no-rdoc --no-ri bootstrap-sass zurb-foundation` [bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sass), [zurb-foundation](http://foundation.zurb.com/docs/sass.html), [bourbon](http://bourbon.io/), [neat](http://neat.bourbon.io/)  
+`gem install  bootstrap-sass zurb-foundation` [bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sass), [zurb-foundation](http://foundation.zurb.com/docs/sass.html), [bourbon](http://bourbon.io/), [neat](http://neat.bourbon.io/)  
 
 ___ui___    
-`gem install --no-rdoc --no-ri sassy-buttons animate-sass omg-text` [sassy-buttons](http://jaredhardy.com/sassy-buttons/), [animate-sass](https://github.com/adamstac/animate.sass), [omg-text](http://jaredhardy.com/omg-text/)
+`gem install  sassy-buttons animate-sass omg-text` [sassy-buttons](http://jaredhardy.com/sassy-buttons/), [animate-sass](https://github.com/adamstac/animate.sass), [omg-text](http://jaredhardy.com/omg-text/)
 
 ___responsive___   
-`gem install --no-rdoc --no-ri susy respondsass respond-to modular-scale` [respondsass](http://my-html-codes.com/respondsass/documentation.html), [respond-to](https://github.com/snugug/respond-to), [modular-scale](https://github.com/scottkellum/modular-scale)
+`gem install  susy respondsass respond-to modular-scale` [respondsass](http://my-html-codes.com/respondsass/documentation.html), [respond-to](https://github.com/snugug/respond-to), [modular-scale](https://github.com/scottkellum/modular-scale)
 
 ___update___    
 `gem update`                     # update installed rubies to latest version
