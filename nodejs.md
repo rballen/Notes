@@ -72,7 +72,9 @@ npm install -g enhance-css caminte feedr
 npm install -g coffee-script less jslint jslint 
 npm install -g marked jsontool
 npm install -g recess connect uglify-js hogan.js
-npm install -g mongoose
+npm install -g mongoose http-server
+sudo npm install -g harp
+
 cd ~/bin
 wget https://phantomjs.googlecode.com/files/phantomjs-1.9.1-linux-x86_64.tar.bz2
 tar xjf phantomjs-1.9.1-linux-x86_64.tar.bz2 phantomjs-1.9.1-linux-x86_64.tar.bz2
