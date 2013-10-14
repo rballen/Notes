@@ -18,6 +18,7 @@ Nodejs Install
 --------------------------------
 **ubuntu, raspberry-pi and  arch based distros**  
 
+```sh
 git clone https://github.com/creationix/nvm.git ~/.nvm 
 source ~/.nvm/nvm.sh
 nvm ls-remote          # list available versions
