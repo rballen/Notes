@@ -49,7 +49,9 @@ gem install susy respondsass respond-to modular-scale
 - [modular-scale](https://github.com/scottkellum/modular-scale)
 
 ___update___    
-`gem update`                     # update installed rubies to latest version
-`gem update --system`            # update rubygem software   
-`gem update jekyll`              # update single gem
-'gem install sass --pre'         # install upcoming sass release - source maps in chrome!!  
+```sh
+gem update                  # update installed rubies to latest version
+gem update --system         # update rubygem software   
+gem update jekyll           # update single gem
+gem install sass --pre      # install upcoming sass release - source maps in chrome!! 
+```
