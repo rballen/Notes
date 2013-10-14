@@ -16,26 +16,17 @@ echo 'export PYTHON=python2' >> ~/.bash_profile
 
 Nodejs Install 
 --------------------------------
-**ubuntu, raspberry-pi and  arch based distros**    
-Read up on the latest stable version [here](http://nodejs.org/download/) or do a
-`nvm ls-remote` to list them on the command line
+**ubuntu, raspberry-pi and  arch based distros**  
 
-
-```sh
-wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh
-```
-I prefer .bashrc over bash_profile so open .profile or .bash_profile and remove the last line about nvm.sh
-
-
-```sh
+git clone https://github.com/creationix/nvm.git ~/.nvm 
 source ~/.nvm/nvm.sh
-nvm ls   
-nvm ls-remote   
+nvm ls-remote          # list available versions
 nvm install v0.11.6
+nvm use 0.11.6
 nvm alias default 0.11.6
 echo '[[ -s "$HOME/.nvm/nvm.sh" ]] && . "$HOME/.nvm/nvm.sh" ' >> ~/.bashrc
 echo '[[ -r "$HOME/.nvm/bash_completion" ]] && . "$HOME/.nvm/bash_completion" ' >> ~/.bashrc
-ehco 'export node_path="$HOME/.nvm/v0.11.6/bin/node" ' >> ~/.bashrc
+echo 'export node_path="$HOME/.nvm/v0.11.6/bin/node" ' >> ~/.bashrc
 source ~/.bashrc   
 node --version 
 
@@ -74,18 +65,18 @@ npm install -g yo karma
 npm install -g generator-webapp generator-angular generator-foundation
 npm install -g http-server express generator-server-configs
 npm install -g enhance-css caminte feedr
-npm install -g coffee-script less jslint jslint 
+npm install -g coffee-script less jslint
 npm install -g marked jsontool
 npm install -g recess connect uglify-js hogan.js
-npm install -g mongoose http-server
+npm install -g mongoose
 sudo npm install -g harp
 
-cd ~/bin
+cd /media/data/Tools
 wget https://phantomjs.googlecode.com/files/phantomjs-1.9.1-linux-x86_64.tar.bz2
 tar xjf phantomjs-1.9.1-linux-x86_64.tar.bz2 phantomjs-1.9.1-linux-x86_64.tar.bz2
 rm phantomjs-1.9.1-linux-x86_64.tar.bz2 phantomjs-1.9.1-linux-x86_64.tar.bz2
-if [ -f ~/.profile ]; then echo 'PATH=~/bin/phantomjs-1.9.1-linux-x86_64/bin:$PATH' >> ~/.profile; fi
-if [ -f ~/.bash_profile ]; then echo 'PATH=~/bin/phantomjs-1.9.1-linux-x86_64/bin:$PATH' >> ~/.bash_profile; fi
+if [ -f ~/.profile ]; then echo 'PATH=/media/data/Tools/phantomjs-1.9.1-linux-x86_64/bin:$PATH' >> ~/.profile; fi
+if [ -f ~/.bash_profile ]; then echo 'PATH=/media/data/Tools/phantomjs-1.9.1-linux-x86_64/bin:$PATH' >> ~/.bash_profile; fi
 ```
 
 
