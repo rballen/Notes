@@ -3,53 +3,53 @@ ruby and gems
 
 
 ### ruby via [rvm](http://rvm.io)
+
 ```sh
-\curl -L https://get.rvm.io | bash -s stable
-echo 'source ~/.rvm/scripts/rvm' >> ~/.bashrc
-source ~/.bashrc
-rvm requirements  # install any requirements
-```
-verify that output of:   
-`type rvm | head -n 1`
-should be `rvm is a function`  
-```sh
-rvm list known          # list known rubies
-rvm install 2.0.0-p195  # install 2.0
-rvm use 2.0.0-p195 --default     # use it and set it to default
-ruby -v 				# verify version
-which ruby				# verify location
-rvm info                # all the details
+sudo apt-get curl
+\curl -L https://get.rvm.io | bash -s stable --ignore-dotfiles
+source ~/.rvm/scripts/rvm
+rvm list known
+rvm install 2.0.0 --autolibs=2; 
+# install missing packages the run again...sudo apt-get xxx xxx
+rvm install 2.0.0  --autolibs=2;
+echo ". $HOME/.rvm/scripts/rvm" >> ~/.bashrc
+echo "gem: --no-ri --no-rdoc" > ~/.gemrc   # don't isntall all the gems docs
+. ~/.bashrc
+rvm info   
 ```   
-to make things faster i don't install the docs and set it globally in my ~/.gemrc   
-echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 
 ### [gems](http://rubygems.org/gems)
 
-__develop, build, serve__   
-`gem install  bundler rake jekyll vagrant`[bundler](http://bundler.io/), [rake](http://rake.rubyforge.org/),  [jekyll](http://jekyllrb.com/), [vagrant](http://www.vagrantup.com/)   
+__develop, build, server, compass, sasss__    
+```sh   
+gem install bundler rake jekyll vagrant
+gem install compass sass toolkit compass-recipes
+gem install jsduck compass-colors color-schemer sassafras
+gem install sassy-buttons animate-sass omg-text
+gem install susy respondsass respond-to modular-scale
+```
 
-__modern webdev__    
-`gem install compass sass`  [compass](http://compass-style.org/) ,[sass](http://sass-lang.com/)    
-
-__sass & compass helpers__   
-`gem install  toolkit compass-recipes compass-normalize` [toolkit](https://github.com/Snugug/toolkit) , [compass-recipes](http://compass-recipes.moox.fr/)
-
-__document__   
-`gem install  jsduck`    [jsduck](https://github.com/senchalabs/jsduck)    
-
-___sassy color help___    
-`gem install compass-colors color-schemer sassafras` [compass-colors](https://github.com/chriseppstein/compass-colors) , [color-schemer](https://github.com/scottkellum/color-schemer), [sassafras](https://github.com/teejayvanslyke/sassafras)
-  
-___frameworks___     
-`gem install  bootstrap-sass zurb-foundation` [bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sass), [zurb-foundation](http://foundation.zurb.com/docs/sass.html), [bourbon](http://bourbon.io/), [neat](http://neat.bourbon.io/)  
-
-___ui___    
-`gem install  sassy-buttons animate-sass omg-text` [sassy-buttons](http://jaredhardy.com/sassy-buttons/), [animate-sass](https://github.com/adamstac/animate.sass), [omg-text](http://jaredhardy.com/omg-text/)
-
-___responsive___   
-`gem install  susy respondsass respond-to modular-scale` [respondsass](http://my-html-codes.com/respondsass/documentation.html), [respond-to](https://github.com/snugug/respond-to), [modular-scale](https://github.com/scottkellum/modular-scale)
+- [bundler](http://bundler.io/)
+- [rake](http://rake.rubyforge.org/)
+- [jekyll](http://jekyllrb.com/)
+- [vagrant](http://www.vagrantup.com/)   
+- [compass](http://compass-style.org/)
+- [sass](http://sass-lang.com/)    
+- [toolkit](https://github.com/Snugug/toolkit)
+- [compass-recipes](http://compass-recipes.moox.fr/)
+- [jsduck](https://github.com/senchalabs/jsduck)  
+- [compass-colors](https://github.com/chriseppstein/compass-colors)
+- [color-schemer](https://github.com/scottkellum/color-schemer)
+- [sassafras](https://github.com/teejayvanslyke/sassafras)
+- [sassy-buttons](http://jaredhardy.com/sassy-buttons/)
+- [animate-sass](https://github.com/adamstac/animate.sass)
+- [omg-text](http://jaredhardy.com/omg-text/)
+- [respondsass](http://my-html-codes.com/respondsass/documentation.html)
+- [respond-to](https://github.com/snugug/respond-to)
+- [modular-scale](https://github.com/scottkellum/modular-scale)
 
 ___update___    
 `gem update`                     # update installed rubies to latest version
 `gem update --system`            # update rubygem software   
-`gem update zurb-foundation`     # update single gem
+`gem update jekyll`              # update single gem
+'gem install sass --pre'         # install upcoming sass release - source maps in chrome!!  
