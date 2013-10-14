@@ -16,24 +16,29 @@ echo 'export PYTHON=python2' >> ~/.bash_profile
 
 Nodejs Install 
 --------------------------------
-**ubuntu and arch based distros**    
-Find the latest stable version [here](http://nodejs.org/download/). I do a `nvm ls-remote` below only as a installation check.
+**ubuntu, raspberry-pi and  arch based distros**    
+Read up on the latest stable version [here](http://nodejs.org/download/) or do a
+`nvm ls-remote` to list them on the command line
+
 
 ```sh
 wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh
-source ~/.nvm/nvm.sh
 ```
-I prefer .bashrc so `vi ~/.bash_profile` or `vi ~/.profile` and yank the last line about nvm.sh and paste to end of ~/.bashrc 
+I prefer .bashrc over bash_profile so open .profile or .bash_profile and remove the last line about nvm.sh
+
 
 ```sh
-source ~/.bashrc 
+source ~/.nvm/nvm.sh
 nvm ls   
 nvm ls-remote   
-nvm install v0.10.2
-nvm alias default 0.10.2
-node --version 
-echo '[[ -r $NVM_DIR/bash_completion ]] && . $NVM_DIR/bash_completion' >> .bashrc
+nvm install v0.11.6
+nvm alias default 0.11.6
+echo '[[ -s "$HOME/.nvm/nvm.sh" ]] && . "$HOME/.nvm/nvm.sh" ' >> ~/.bashrc
+echo '[[ -r "$HOME/.nvm/bash_completion" ]] && . "$HOME/.nvm/bash_completion" ' >> ~/.bashrc
+ehco 'export node_path="$HOME/.nvm/v0.11.6/bin/node" ' >> ~/.bashrc
 source ~/.bashrc   
+node --version 
+
 ```
 
 **raspberry-pi**  
