@@ -39,6 +39,7 @@ see jmcunningham's [AngularJS-Learning](https://github.com/jmcunningham/AngularJ
 
 ### Tutorials
 - [official tutorial](http://docs.angularjs.org/tutorial)
+- [Angular-Design-Patterns-Best-Practices](http://trochette.github.io/Angular-Design-Patterns-Best-Practices/#/intro)
 - [learnangularjs](http://learnangularjs.blogspot.com/) - several articles
 - [adobe's getting started guide](http://www.adobe.com/devnet/html5/articles/getting-started-with-angularjs.html)
 - [AngularJS Fundamentals In 60-ish Minutes ](http://www.youtube.com/watch?v=i9MHigUZKEM&feature=youtu.be)
@@ -65,6 +66,7 @@ see jmcunningham's [AngularJS-Learning](https://github.com/jmcunningham/AngularJ
 - [e2e example](https://github.com/stephanebisson/e2e-example.git)
 
 ### Starter Templates
+- [ng-boilerplate](http://joshdmiller.github.io/ng-boilerplate/#/home)
 - [AngularFun](https://github.com/CaryLandholt/AngularFun) - large application Reference Architecture.
 - [angular-sprout](https://github.com/thedigitalself/angular-sprout) - The scalable angular seed app 
 - [thedigitalself article](http://thedigitalself.com/blog/angular-sprout-the-scalable-angular-seed-app)
