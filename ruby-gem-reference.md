@@ -24,6 +24,8 @@ __develop, build, server, compass, sasss__
 ```sh   
 gem install bundler rake jekyll vagrant
 gem install compass sass toolkit compass-recipes
+gem install bourbon neat
+gem install foundation semantic-ui-sass bootstrap-sass
 gem install jsduck compass-colors color-schemer sassafras
 gem install sassy-buttons animate-sass omg-text
 gem install susy respondsass respond-to modular-scale
@@ -37,6 +39,11 @@ gem install susy respondsass respond-to modular-scale
 - [sass](http://sass-lang.com/)    
 - [toolkit](https://github.com/Snugug/toolkit)
 - [compass-recipes](http://compass-recipes.moox.fr/)
+- [boubon](http://bourbon.io/docs/)
+- [neat](http://neat.bourbon.io/docs/)
+- [foundation](http://foundation.zurb.com/docs/sass.html) - Zurb Foundation 5
+- [semantic-ui-sass](https://github.com/doabit/semantic-ui-sass) - sass port of [semantic-ui](http://semantic-ui.com/)
+- [bootstrap-sass](https://github.com/twbs/bootstrap-sass) - sass port of [twitter bootstrap](http://getbootstrap.com/css/)
 - [jsduck](https://github.com/senchalabs/jsduck)  
 - [compass-colors](https://github.com/chriseppstein/compass-colors)
 - [color-schemer](https://github.com/scottkellum/color-schemer)
