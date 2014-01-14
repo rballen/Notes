@@ -64,6 +64,7 @@ npm update -g npm            # update to latest npm
 npm config set save true     # alwasy update package.json
 npm install -g yo karma
 npm install -g generator-webapp generator-angular generator-foundation
+npm install -g gulp
 npm install -g http-server express generator-server-configs
 npm install -g enhance-css caminte feedr
 npm install -g coffee-script less jslint
