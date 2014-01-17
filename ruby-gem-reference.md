@@ -23,7 +23,8 @@ rvm info
 __develop, build, server, compass, sasss__    
 ```sh   
 gem install bundler rake jekyll vagrant
-gem install compass sass toolkit compass-recipes
+gem install sass --pre compass 
+gem install toolkit compass-recipes
 gem install bourbon neat
 gem install foundation semantic-ui-sass bootstrap-sass
 gem install jsduck compass-colors color-schemer sassafras
